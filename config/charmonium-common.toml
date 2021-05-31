@@ -1,9 +1,0 @@
-#Adds custom music tracks that play in certain situations.
-"Music enabled" = true
-#Ambient sounds play according to the biome, time of day and depth below surface.
-"Sounds enabled" = true
-
-[Sounds]
-	#Volume of ambient sounds is multiplied by this amount.
-	"Volume multiplier" = 1.0
-

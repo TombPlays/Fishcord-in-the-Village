@@ -10,7 +10,4 @@
 	"Testing Mode" = false
 	#Set this to the ID of a book to have it show up in players' inventories, replacing the recipe book.
 	"Inventory Button Book" = ""
-	#Set how text overflow should be coped with: overflow the text off the page, truncate overflowed text, or resize everything to fit. Relogin after changing.
-	#Allowed Values: OVERFLOW, TRUNCATE, RESIZE
-	textOverflowMode = "OVERFLOW"
 

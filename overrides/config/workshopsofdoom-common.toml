@@ -27,13 +27,13 @@
 		max_separation = 50
 		start_pool = "workshopsofdoom:quarry/desert/start"
 		size = 5
-		min_seperation = 15
+		min_seperation = 25
 
 	[structures.plains_quarry]
 		max_separation = 50
 		start_pool = "workshopsofdoom:quarry/plains/start"
 		size = 5
-		min_seperation = 15
+		min_seperation = 25
 
 	[structures.mountain_mines]
 		max_separation = 32
@@ -51,5 +51,5 @@
 		max_separation = 50
 		start_pool = "workshopsofdoom:workshop/start"
 		size = 20
-		min_seperation = 20
+		min_seperation = 25
 

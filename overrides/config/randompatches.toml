@@ -103,7 +103,7 @@
 		#  - ${username}: The username.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		simple_title = "Fishcord in the Village modpack | Minecraft ${mcversion}"
+		simple_title = "Life in the Village 2 modpack | Minecraft ${mcversion}"
 		# The Minecraft window title.
 		# The current activity is not available.
 		# Variables:
