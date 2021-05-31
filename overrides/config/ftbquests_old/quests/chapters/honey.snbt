@@ -1,0 +1,513 @@
+{
+	id: "0000000000000004",
+	group: "",
+	order_index: 2,
+	filename: "honey",
+	title: "Honey",
+	icon: "minecraft:honeycomb",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -1.0d,
+			y: 0.0d,
+			dependencies: ["0000000000000129"],
+			id: "00000000000000CE",
+			tasks: [{
+				id: "00000000000000CF",
+				type: "item",
+				item: "minecraft:honeycomb"
+			}],
+			rewards: [{
+				id: "00000000000001C2",
+				type: "item",
+				item: "minecraft:milk_bucket"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 2.0d,
+			dependencies: ["0000000000000129"],
+			id: "0000000000000127",
+			tasks: [{
+				id: "0000000000000128",
+				type: "item",
+				item: "minecraft:honey_bottle"
+			}],
+			rewards: [{
+				id: "0000000000000300",
+				type: "item",
+				item: "buzzierbees:sticky_honey_wand"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 2.0d,
+			id: "0000000000000129",
+			tasks: [{
+				id: "000000000000012A",
+				type: "item",
+				item: "minecraft:beehive"
+			}],
+			rewards: [
+				{
+					id: "00000000000001C1",
+					type: "item",
+					item: "minecraft:campfire"
+				},
+				{
+					id: "00000000000002FF",
+					type: "item",
+					item: "minecraft:orange_carpet"
+				},
+				{
+					id: "0000000000000604",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 0.0d,
+			dependencies: ["00000000000000CE"],
+			id: "000000000000012B",
+			tasks: [{
+				id: "000000000000012C",
+				type: "item",
+				item: "buzzierbees:wax"
+			}],
+			rewards: [{
+				id: "000000000000060F",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.0d,
+			dependencies: ["000000000000012B"],
+			id: "000000000000012D",
+			tasks: [{
+				id: "000000000000012E",
+				type: "item",
+				item: "buzzierbees:honey_pot"
+			}],
+			rewards: [{
+				id: "00000000000001C4",
+				type: "item",
+				item: {
+					id: "quark:hive_chest",
+					Count: 2b
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.0d,
+			dependencies: ["000000000000012B"],
+			id: "000000000000012F",
+			tasks: [{
+				id: "0000000000000130",
+				type: "item",
+				item: "buzzierbees:dandelion_scented_candle"
+			}],
+			rewards: [{
+				id: "00000000000001B6",
+				type: "item",
+				item: "buzzierbees:bee_bottle"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			dependencies: [
+				"000000000000012B",
+				"0000000000000133"
+			],
+			id: "0000000000000131",
+			tasks: [{
+				id: "0000000000000132",
+				type: "item",
+				item: "buzzierbees:bee_soup"
+			}],
+			rewards: [{
+				id: "0000000000000145",
+				type: "item",
+				item: "enhanced_mushrooms:glowshroom_beehive"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.0d,
+			dependencies: ["0000000000000127"],
+			id: "0000000000000133",
+			tasks: [{
+				id: "0000000000000134",
+				type: "item",
+				item: "buzzierbees:crystallized_honey"
+			}],
+			rewards: [{
+				id: "00000000000001C0",
+				type: "item",
+				item: "buzzierbees:daybloom"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 2.0d,
+			dependencies: ["0000000000000127"],
+			id: "0000000000000135",
+			tasks: [{
+				id: "0000000000000136",
+				type: "item",
+				item: "buzzierbees:honey_apple"
+			}],
+			rewards: [{
+				id: "00000000000001B7",
+				type: "item",
+				item: "minecraft:bee_spawn_egg"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 3.0d,
+			dependencies: ["0000000000000127"],
+			id: "0000000000000137",
+			tasks: [{
+				id: "0000000000000138",
+				type: "item",
+				item: "buzzierbees:honey_bread"
+			}],
+			rewards: [{
+				id: "0000000000000610",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 3.0d,
+			dependencies: ["0000000000000127"],
+			id: "0000000000000139",
+			tasks: [{
+				id: "000000000000013A",
+				type: "item",
+				item: "buzzierbees:glazed_porkchop"
+			}],
+			rewards: [{
+				id: "00000000000001B8",
+				type: "item",
+				item: "minecraft:bee_spawn_egg"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.0d,
+			dependencies: ["000000000000012B"],
+			id: "000000000000013B",
+			tasks: [{
+				id: "000000000000013C",
+				type: "item",
+				item: "buzzierbees:hive_planks"
+			}],
+			rewards: [{
+				id: "00000000000001C3",
+				type: "item",
+				item: {
+					id: "buzzierbees:hive_fence",
+					Count: 10b
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			dependencies: ["000000000000013B"],
+			id: "000000000000013D",
+			tasks: [{
+				id: "000000000000013E",
+				type: "item",
+				item: "buzzierbees:hive_ladder"
+			}],
+			rewards: [{
+				id: "00000000000001BF",
+				type: "item",
+				item: "buzzierbees:jolyce"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.0d,
+			dependencies: ["0000000000000127"],
+			id: "000000000000013F",
+			tasks: [{
+				id: "0000000000000140",
+				type: "item",
+				item: "buzzierbees:honey_lamp"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -3.0d,
+			dependencies: ["000000000000013B"],
+			id: "0000000000000141",
+			tasks: [{
+				id: "0000000000000142",
+				type: "item",
+				item: "buzzierbees:hive_door"
+			}],
+			rewards: [{
+				id: "00000000000001BD",
+				type: "item",
+				item: "buzzierbees:bluebell"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -3.0d,
+			dependencies: ["000000000000013B"],
+			id: "0000000000000143",
+			tasks: [{
+				id: "0000000000000144",
+				type: "item",
+				item: "buzzierbees:hive_boat"
+			}],
+			rewards: [{
+				id: "00000000000001BE",
+				type: "item",
+				item: "buzzierbees:violet"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 4.0d,
+			description: [
+				"Bees inhabiting the advanced beehive will produce resources for you",
+				"Resources can be extracted automatically",
+				"Honey will be harvested automatically",
+				"Advanced hives are comfortable and bees living in here will not mind the hive being harvested",
+				"Can be expanded using an expansion box"
+			],
+			dependencies: ["0000000000000129"],
+			id: "0000000000000307",
+			tasks: [{
+				id: "0000000000000308",
+				type: "item",
+				item: "productivebees:advanced_oak_beehive"
+			}],
+			rewards: [
+				{
+					id: "000000000000060A",
+					type: "item",
+					item: "upgrade_aquatic:searocket_pink"
+				},
+				{
+					id: "000000000000060B",
+					type: "item",
+					item: "buzzierbees:purple_hibiscus"
+				},
+				{
+					id: "000000000000060C",
+					type: "item",
+					item: "minecraft:azure_bluet"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 5.0d,
+			description: ["Adds room for 2 more bees for a total of 5"],
+			dependencies: ["0000000000000307"],
+			id: "0000000000000309",
+			tasks: [{
+				id: "000000000000030A",
+				type: "item",
+				item: "productivebees:expansion_box_oak"
+			}],
+			rewards: [{
+				id: "0000000000000608",
+				type: "item",
+				item: "buzzierbees:violet"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 5.0d,
+			description: ["Extract resources from combs produced by your bees."],
+			dependencies: ["0000000000000307"],
+			id: "000000000000030B",
+			tasks: [{
+				id: "000000000000030C",
+				type: "item",
+				item: "productivebees:centrifuge"
+			}],
+			rewards: [
+				{
+					id: "0000000000000606",
+					type: "item",
+					item: "aquaculture:box"
+				},
+				{
+					id: "0000000000000607",
+					type: "item",
+					item: "minecraft:wither_rose",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			description: [
+				"Calms down angry bees",
+				"Heals bees",
+				"Baby bees who eat this will grow strong"
+			],
+			dependencies: ["0000000000000307"],
+			id: "000000000000030D",
+			tasks: [{
+				id: "000000000000030E",
+				type: "item",
+				item: "productivebees:honey_treat"
+			}],
+			rewards: [{
+				id: "0000000000000609",
+				type: "item",
+				item: "buzzierbees:columbine"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.0d,
+			description: [" Capture and keep your bees safe during transport"],
+			dependencies: ["0000000000000129"],
+			id: "000000000000030F",
+			tasks: [{
+				id: "0000000000000310",
+				type: "item",
+				item: "productivebees:bee_cage"
+			}],
+			rewards: [{
+				id: "0000000000000323",
+				type: "item",
+				item: "productivebees:bee_cage"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 5.0d,
+			dependencies: ["000000000000030B"],
+			id: "0000000000000311",
+			tasks: [
+				{
+					id: "0000000000000312",
+					type: "item",
+					item: "productivebees:honeycomb_bone"
+				},
+				{
+					id: "0000000000000313",
+					type: "item",
+					item: "productivebees:honeycomb_iron"
+				},
+				{
+					id: "0000000000000314",
+					type: "item",
+					item: "productivebees:honeycomb_gold"
+				},
+				{
+					id: "0000000000000315",
+					type: "item",
+					item: "productivebees:honeycomb_slimy"
+				},
+				{
+					id: "0000000000000316",
+					type: "item",
+					item: "productivebees:honeycomb_rotten"
+				},
+				{
+					id: "0000000000000317",
+					type: "item",
+					item: "productivebees:honeycomb_emerald"
+				},
+				{
+					id: "0000000000000318",
+					type: "item",
+					item: "productivebees:honeycomb_powdery"
+				},
+				{
+					id: "0000000000000319",
+					type: "item",
+					item: "productivebees:honeycomb_fossilised"
+				},
+				{
+					id: "000000000000031A",
+					type: "item",
+					item: "productivebees:honeycomb_milky"
+				},
+				{
+					id: "000000000000031B",
+					type: "item",
+					item: "productivebees:honeycomb_magmatic"
+				},
+				{
+					id: "000000000000031C",
+					type: "item",
+					item: "productivebees:honeycomb_blazing"
+				},
+				{
+					id: "000000000000031D",
+					type: "item",
+					item: "productivebees:honeycomb_lapis"
+				},
+				{
+					id: "000000000000031E",
+					type: "item",
+					item: "productivebees:honeycomb_quartz"
+				},
+				{
+					id: "000000000000031F",
+					type: "item",
+					item: "productivebees:honeycomb_withered"
+				},
+				{
+					id: "0000000000000320",
+					type: "item",
+					item: "productivebees:honeycomb_diamond"
+				},
+				{
+					id: "0000000000000321",
+					type: "item",
+					item: "productivebees:honeycomb_glowing"
+				},
+				{
+					id: "0000000000000322",
+					type: "item",
+					item: "productivebees:honeycomb_ender"
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000000605",
+					type: "item",
+					item: "aquaculture:lockbox"
+				},
+				{
+					id: "000000000000060D",
+					type: "item",
+					item: "minecraft:allium"
+				},
+				{
+					id: "000000000000060E",
+					type: "item",
+					item: "buzzierbees:bluebell"
+				}
+			]
+		}
+	]
+}

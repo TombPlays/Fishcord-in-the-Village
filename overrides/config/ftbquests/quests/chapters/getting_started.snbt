@@ -1,0 +1,2709 @@
+{
+	id: "01AFC9AD8A70B108",
+	group: "",
+	order_index: 0,
+	filename: "getting_started",
+	title: "Getting Started",
+	icon: {
+		id: "minecraft:stone_pickaxe",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -6.5d,
+			y: -0.5d,
+			dependencies: ["33886A5EFC27C3B4"],
+			id: "0000000000000006",
+			tasks: [{
+				id: "0000000000000007",
+				type: "item",
+				item: "minecraft:crafting_table"
+			}],
+			rewards: [{
+				id: "000000000000021E",
+				type: "item",
+				item: "minecraft:cookie",
+				count: 5
+			}]
+		},
+		{
+			title: "Punching Trees",
+			x: -9.5d,
+			y: -0.5d,
+			id: "0000000000000008",
+			tasks: [{
+				id: "0000000000000009",
+				type: "item",
+				title: "Any minecraft:logs",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000021D",
+				type: "item",
+				item: "minecraft:apple",
+				count: 3
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -0.5d,
+			dependencies: ["0000000000000006"],
+			id: "000000000000000A",
+			tasks: [{
+				id: "000000000000000B",
+				type: "item",
+				item: {
+					id: "minecraft:wooden_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000021F",
+					type: "item",
+					item: "minecraft:stick",
+					count: 6
+				},
+				{
+					id: "00000000000002C2",
+					type: "xp",
+					xp: 100
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -0.5d,
+			dependencies: ["000000000000000A"],
+			id: "000000000000000D",
+			tasks: [{
+				id: "000000000000000E",
+				type: "item",
+				item: {
+					id: "minecraft:stone_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000038A",
+				type: "item",
+				item: "minecraft:apple",
+				count: 3
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 3.0d,
+			dependencies: ["000000000000003F"],
+			id: "000000000000000F",
+			tasks: [{
+				id: "0000000000000010",
+				type: "item",
+				item: {
+					id: "minecraft:iron_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000039D",
+					type: "item",
+					item: "minecraft:golden_carrot",
+					count: 3
+				},
+				{
+					id: "000000000000039E",
+					type: "item",
+					item: "minecraft:string",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -0.5d,
+			dependencies: ["000000000000000D"],
+			id: "0000000000000011",
+			tasks: [{
+				id: "0000000000000012",
+				type: "item",
+				item: "minecraft:furnace"
+			}],
+			rewards: [
+				{
+					id: "0000000000000221",
+					type: "item",
+					item: "minecraft:charcoal",
+					count: 8
+				},
+				{
+					id: "000000000000038B",
+					type: "item",
+					item: "minecraft:cod",
+					count: 5
+				}
+			]
+		},
+		{
+			title: "It's a box!",
+			x: -0.5d,
+			y: -2.5d,
+			dependencies: ["0000000000000011"],
+			id: "0000000000000013",
+			tasks: [{
+				id: "0000000000000014",
+				type: "item",
+				title: "Any forge:chests",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:chests"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "00000000000001C5",
+					type: "item",
+					item: "quark:mushroom_chest",
+					count: 2
+				},
+				{
+					id: "00000000000002D1",
+					type: "item",
+					item: "minecraft:oak_log",
+					count: 16
+				}
+			]
+		},
+		{
+			x: -9.5d,
+			y: 0.5d,
+			description: [
+				"You can craft a new quest book with a book and stone.",
+				"",
+				"But, better to just not lose it :)"
+			],
+			dependencies: ["0000000000000008"],
+			id: "0000000000000015",
+			tasks: [{
+				id: "0000000000000016",
+				type: "item",
+				item: "ftbquests:book"
+			}],
+			rewards: [{
+				id: "000000000000021B",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Bed Time",
+			x: 0.5d,
+			y: 0.5d,
+			dependencies: ["0000000000000011"],
+			id: "0000000000000017",
+			tasks: [{
+				id: "0000000000000018",
+				type: "item",
+				title: "Any minecraft:beds",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000001C8",
+				type: "item",
+				item: "pamhc2crops:hotteaitem"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.5d,
+			dependencies: ["0000000000000017"],
+			id: "0000000000000019",
+			tasks: [{
+				id: "000000000000001A",
+				type: "item",
+				item: "comforts:sleeping_bag_white"
+			}],
+			rewards: [{
+				id: "00000000000001C9",
+				type: "item",
+				item: "pamhc2crops:hotcoffeeitem"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 1.5d,
+			dependencies: ["0000000000000045"],
+			id: "000000000000001B",
+			tasks: [{
+				id: "000000000000001C",
+				type: "item",
+				item: {
+					id: "minecraft:diamond_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "00000000000002DD",
+					type: "item",
+					item: "minecraft:diamond"
+				},
+				{
+					id: "00000000000002DE",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3,
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: -5.0d,
+			dependencies: ["000000000000004C"],
+			id: "000000000000001D",
+			tasks: [{
+				id: "000000000000001E",
+				type: "item",
+				item: {
+					id: "pickletweaks:emerald_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000277",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3,
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				},
+				{
+					id: "00000000000002C9",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 3
+				},
+				{
+					id: "00000000000002CC",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "00000000000002D4",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			title: "Flint Armor",
+			x: -3.0d,
+			y: 2.5d,
+			dependencies: ["0000000000000025"],
+			id: "0000000000000020",
+			tasks: [
+				{
+					id: "0000000000000021",
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000022",
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000023",
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000024",
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "00000000000001D7",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "quark:long_resistance"
+					}
+				}
+			}]
+		},
+		{
+			title: "Flint Sieving",
+			x: -3.0d,
+			y: 1.5d,
+			dependencies: ["000000000000003B"],
+			id: "0000000000000025",
+			tasks: [
+				{
+					id: "0000000000000026",
+					type: "item",
+					item: {
+						id: "pickletweaks:grass_fiber_mesh",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000027",
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_shears",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000029",
+					type: "item",
+					item: "minecraft:grass",
+					count: 15L
+				}
+			],
+			rewards: [
+				{
+					id: "000000000000002A",
+					type: "item",
+					item: "minecraft:flint",
+					count: 5
+				},
+				{
+					id: "0000000000000038",
+					type: "item",
+					item: "minecraft:gravel",
+					count: 5
+				}
+			]
+		},
+		{
+			title: "Emerald Armor",
+			x: 3.0d,
+			y: -5.0d,
+			dependencies: ["000000000000004C"],
+			id: "000000000000002B",
+			tasks: [
+				{
+					id: "000000000000002C",
+					type: "item",
+					item: {
+						id: "pickletweaks:emerald_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "000000000000002D",
+					type: "item",
+					item: {
+						id: "pickletweaks:emerald_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "000000000000002E",
+					type: "item",
+					item: {
+						id: "pickletweaks:emerald_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "000000000000002F",
+					type: "item",
+					item: {
+						id: "pickletweaks:emerald_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "0000000000000276",
+				type: "item",
+				item: "pickletweaks:emerald_apple"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -6.0d,
+			dependencies: ["000000000000001D"],
+			id: "0000000000000030",
+			tasks: [{
+				id: "0000000000000031",
+				type: "item",
+				item: {
+					id: "pickletweaks:emerald_paxel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "00000000000002CA",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 3
+				},
+				{
+					id: "00000000000002CD",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "00000000000002D5",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 1.5d,
+			dependencies: ["000000000000001B"],
+			id: "0000000000000034",
+			tasks: [{
+				id: "0000000000000035",
+				type: "item",
+				item: {
+					id: "pickletweaks:diamond_paxel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000039A",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "000000000000039B",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3,
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				},
+				{
+					id: "000000000000039C",
+					type: "item",
+					item: "minecraft:enchanted_golden_apple"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: -2.0d,
+			subtitle: "How to use JEI(that thing with items on the RIGHT)",
+			description: [
+				'• Hovering over an item and pressing the "R" key (for Recipe) will display that item\'s recipe.',
+				'• Pressing the "U" key (for Use) shows what that item can be used to create through crafting grids. ',
+				'• To search by mod name use the "@" key before search in search box.',
+				"• To select the search box without clicking on it, the player can press Ctrl + F.",
+				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A.",
+				""
+			],
+			dependencies: ["33886A5EFC27C3B4"],
+			id: "0000000000000039",
+			tasks: [{
+				id: "000000000000003A",
+				type: "checkmark",
+				title: "JEI",
+				icon: "itemfilters:not"
+			}],
+			rewards: [{
+				id: "000000000000021C",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Flint is now useful too!",
+			x: -3.5d,
+			y: 0.5d,
+			dependencies: ["000000000000000D"],
+			id: "000000000000003B",
+			tasks: [{
+				id: "000000000000003C",
+				type: "item",
+				item: "minecraft:flint"
+			}],
+			rewards: [{
+				id: "0000000000000269",
+				type: "item",
+				item: "minecraft:lapis_lazuli",
+				count: 4
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 1.5d,
+			dependencies: ["000000000000003B"],
+			id: "000000000000003D",
+			tasks: [{
+				id: "000000000000003E",
+				type: "item",
+				item: {
+					id: "pickletweaks:flint_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000026A",
+				type: "item",
+				item: "minecraft:red_dye",
+				count: 4
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 3.5d,
+			dependencies: ["0000000000000011"],
+			id: "000000000000003F",
+			tasks: [{
+				id: "0000000000000040",
+				type: "item",
+				item: "minecraft:iron_ingot"
+			}],
+			rewards: [
+				{
+					id: "00000000000002DF",
+					type: "xp_levels",
+					xp_levels: 3
+				},
+				{
+					id: "0000000000000384",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 4
+				},
+				{
+					id: "0000000000000385",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 4
+				}
+			]
+		},
+		{
+			title: "Battle Gear",
+			x: 0.5d,
+			y: 5.0d,
+			dependencies: ["000000000000003F"],
+			id: "0000000000000041",
+			tasks: [
+				{
+					id: "0000000000000042",
+					type: "item",
+					item: {
+						id: "minecraft:shield",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "000000000000004B",
+					type: "item",
+					item: {
+						id: "minecraft:iron_sword",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "00000000000001CE",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strength"
+						}
+					}
+				},
+				{
+					id: "0000000000000386",
+					type: "item",
+					item: "minecraft:bone",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 3.5d,
+			dependencies: ["000000000000003F"],
+			id: "0000000000000043",
+			tasks: [{
+				id: "0000000000000044",
+				type: "item",
+				item: "minecraft:lava_bucket"
+			}],
+			rewards: [{
+				id: "0000000000000383",
+				type: "item",
+				item: "minecraft:black_dye",
+				count: 3
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 2.5d,
+			dependencies: ["000000000000000F"],
+			id: "0000000000000045",
+			tasks: [{
+				id: "0000000000000046",
+				type: "item",
+				item: "minecraft:diamond"
+			}],
+			rewards: [
+				{
+					id: "00000000000001BB",
+					type: "item",
+					item: "quark:blue_blossom_sapling"
+				},
+				{
+					id: "00000000000003A6",
+					type: "item",
+					item: "minecraft:golden_carrot",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 7.0d,
+			y: 1.5d,
+			dependencies: [
+				"00000000000000B7",
+				"00000000000000B9"
+			],
+			id: "0000000000000047",
+			tasks: [{
+				id: "0000000000000048",
+				type: "item",
+				item: "minecraft:enchanting_table"
+			}],
+			rewards: [
+				{
+					id: "0000000000000279",
+					type: "item",
+					item: "minecraft:book",
+					count: 5
+				},
+				{
+					id: "00000000000002DC",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -1.5d,
+			dependencies: ["000000000000000D"],
+			id: "0000000000000049",
+			tasks: [{
+				id: "000000000000004A",
+				type: "item",
+				item: {
+					id: "minecraft:stone_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000220",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strength"
+						}
+					}
+				},
+				{
+					id: "0000000000000377",
+					type: "item",
+					item: "minecraft:slime_ball",
+					count: 3
+				},
+				{
+					id: "00000000000004B2",
+					type: "item",
+					item: "minecraft:ink_sac",
+					count: 16
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			dependencies: ["000000000000011F"],
+			id: "000000000000004C",
+			tasks: [{
+				id: "000000000000004D",
+				type: "item",
+				item: "minecraft:emerald"
+			}],
+			rewards: [
+				{
+					id: "00000000000002C8",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 3
+				},
+				{
+					id: "00000000000002CB",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "00000000000002D3",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: -2.0d,
+			dependencies: ["0000000000000054"],
+			id: "0000000000000052",
+			tasks: [{
+				id: "0000000000000053",
+				type: "item",
+				item: "minecraft:map"
+			}],
+			rewards: [
+				{
+					id: "0000000000000381",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 4
+				},
+				{
+					id: "0000000000000382",
+					type: "item",
+					item: "minecraft:ender_pearl",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: -0.5d,
+			dependencies: ["0000000000000171"],
+			id: "0000000000000054",
+			tasks: [{
+				id: "0000000000000055",
+				type: "item",
+				item: "minecraft:book"
+			}],
+			rewards: [
+				{
+					id: "00000000000002C3",
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: "000000000000037D",
+					type: "item",
+					item: "minecraft:paper",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -3.5d,
+			dependencies: ["0000000000000013"],
+			id: "0000000000000061",
+			tasks: [{
+				id: "0000000000000557",
+				type: "item",
+				item: "backpacked:backpack"
+			}],
+			rewards: [
+				{
+					id: "0000000000000273",
+					type: "item",
+					item: "minecraft:leather",
+					count: 3
+				},
+				{
+					id: "0000000000000379",
+					type: "item",
+					item: "minecraft:slime_ball",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 2.0d,
+			description: [
+				"A Trowel tool can be crafted with Iron and Sticks. The Trowel, when right clicked, will place a random block from your hotbar, making it useful for ruins or paths.",
+				"",
+				"A Trowel will break after placing 256 blocks, or four stacks."
+			],
+			dependencies: ["000000000000003F"],
+			id: "0000000000000063",
+			tasks: [{
+				id: "0000000000000064",
+				type: "item",
+				item: {
+					id: "quark:trowel",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						last_stack: {
+							id: "minecraft:polished_andesite",
+							Count: 1
+						},
+						placing_seed: -1712070416600608528L
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000038C",
+					type: "item",
+					item: "minecraft:stone"
+				},
+				{
+					id: "000000000000038D",
+					type: "item",
+					item: "minecraft:andesite"
+				},
+				{
+					id: "000000000000038E",
+					type: "item",
+					item: "minecraft:cobblestone"
+				},
+				{
+					id: "000000000000038F",
+					type: "item",
+					item: "minecraft:gravel"
+				},
+				{
+					id: "0000000000000390",
+					type: "item",
+					item: "minecraft:mossy_cobblestone"
+				},
+				{
+					id: "0000000000000391",
+					type: "item",
+					item: "minecraft:stone_bricks"
+				},
+				{
+					id: "0000000000000392",
+					type: "item",
+					item: "minecraft:cracked_stone_bricks"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: -1.5d,
+			dependencies: ["0000000000000013"],
+			id: "0000000000000065",
+			tasks: [{
+				id: "0000000000000066",
+				type: "item",
+				item: "quark:chute"
+			}],
+			rewards: [{
+				id: "0000000000000378",
+				type: "item",
+				item: "minecraft:paper",
+				count: 3
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -3.5d,
+			dependencies: ["0000000000000013"],
+			id: "00000000000000AB",
+			tasks: [{
+				id: "00000000000000AC",
+				type: "item",
+				item: "mcwwindows:window_base"
+			}],
+			rewards: [{
+				id: "000000000000037A",
+				type: "item",
+				item: "minecraft:glass",
+				count: 3
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -4.5d,
+			dependencies: ["00000000000000AB"],
+			id: "00000000000000AD",
+			tasks: [{
+				id: "00000000000000AE",
+				type: "item",
+				item: "mcwwindows:window_centre_bar_base"
+			}],
+			rewards: [{
+				id: "0000000000000274",
+				type: "item",
+				item: "minecraft:glass",
+				count: 6
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.5d,
+			dependencies: ["00000000000000AB"],
+			id: "00000000000000AF",
+			tasks: [{
+				id: "00000000000000B0",
+				type: "item",
+				item: "mcwwindows:spruce_plank_parapet"
+			}],
+			rewards: [{
+				id: "00000000000001D6",
+				type: "item",
+				item: "minecraft:golden_carrot",
+				count: 3
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -3.5d,
+			dependencies: ["0000000000000013"],
+			id: "00000000000000B1",
+			tasks: [{
+				id: "00000000000000B2",
+				type: "item",
+				item: "storagedrawers:oak_full_drawers_1"
+			}],
+			rewards: [
+				{
+					id: "00000000000002D6",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "000000000000037B",
+					type: "item",
+					item: "minecraft:paper",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -3.5d,
+			dependencies: ["00000000000000B1"],
+			id: "00000000000000B3",
+			tasks: [{
+				id: "00000000000000B4",
+				type: "item",
+				item: "storagedrawers:oak_full_drawers_2"
+			}],
+			rewards: [
+				{
+					id: "00000000000002D7",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "000000000000037C",
+					type: "item",
+					item: "minecraft:black_dye",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 5.0d,
+			dependencies: ["000000000000003F"],
+			id: "00000000000000B5",
+			tasks: [{
+				id: "00000000000000B6",
+				type: "item",
+				item: "uppers:upper"
+			}],
+			rewards: [
+				{
+					id: "00000000000003A2",
+					type: "item",
+					item: "minecraft:string",
+					count: 3
+				},
+				{
+					id: "00000000000003A3",
+					type: "item",
+					item: "minecraft:black_dye",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 7.0d,
+			y: -0.5d,
+			dependencies: ["0000000000000054"],
+			id: "00000000000000B7",
+			tasks: [{
+				id: "00000000000000B8",
+				type: "item",
+				item: "minecraft:bookshelf"
+			}],
+			rewards: [
+				{
+					id: "00000000000002C6",
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: "000000000000037E",
+					type: "item",
+					item: "minecraft:ender_pearl",
+					count: 3
+				},
+				{
+					id: "000000000000037F",
+					type: "item",
+					item: "minecraft:paper",
+					count: 3
+				}
+			]
+		},
+		{
+			title: "Portal Time!",
+			x: 5.0d,
+			y: 3.5d,
+			dependencies: [
+				"0000000000000045",
+				"0000000000000043"
+			],
+			dependency_requirement: "one_completed",
+			id: "00000000000000B9",
+			tasks: [
+				{
+					id: "00000000000000BA",
+					type: "item",
+					item: "minecraft:obsidian"
+				},
+				{
+					id: "00000000000000BD",
+					type: "item",
+					item: {
+						id: "minecraft:flint_and_steel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "000000000000027A",
+				type: "item",
+				item: "minecraft:water_bucket"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 1.5d,
+			dependencies: [
+				"0000000000000047",
+				"155E4E7BC087647A"
+			],
+			id: "00000000000000BB",
+			tasks: [{
+				id: "00000000000000BC",
+				type: "item",
+				item: "minecraft:ender_eye"
+			}],
+			rewards: [{
+				id: "0000000000000389",
+				type: "item",
+				item: "minecraft:paper",
+				count: 3
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 3.5d,
+			dependencies: ["00000000000000C8"],
+			id: "00000000000000BE",
+			tasks: [{
+				id: "00000000000000BF",
+				type: "item",
+				item: "minecraft:wither_skeleton_skull",
+				count: 3L
+			}],
+			rewards: [{
+				id: "00000000000003A0",
+				type: "item",
+				item: "minecraft:enchanted_golden_apple"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 3.5d,
+			dependencies: ["00000000000000C4"],
+			id: "00000000000000C0",
+			tasks: [{
+				id: "00000000000000C1",
+				type: "item",
+				item: "minecraft:nether_star"
+			}],
+			rewards: [
+				{
+					id: "0000000000000398",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "00000000000003A1",
+					type: "item",
+					item: "minecraft:golden_carrot",
+					count: 3
+				},
+				{
+					id: "0000000000000498",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 3
+				},
+				{
+					id: "000000000000049E",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 10
+				},
+				{
+					id: "00000000000004A4",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 5
+				},
+				{
+					id: "00000000000004AA",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 5
+				}
+			]
+		},
+		{
+			x: 14.5d,
+			y: 3.5d,
+			dependencies: ["00000000000000C0"],
+			id: "00000000000000C2",
+			tasks: [{
+				id: "00000000000000C3",
+				type: "item",
+				item: "minecraft:beacon"
+			}],
+			rewards: [
+				{
+					id: "0000000000000397",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "0000000000000499",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 3
+				},
+				{
+					id: "000000000000049F",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 10
+				},
+				{
+					id: "00000000000004A5",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 5
+				},
+				{
+					id: "00000000000004AB",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 5
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: 3.5d,
+			dependencies: ["00000000000000BE"],
+			id: "00000000000000C4",
+			tasks: [{
+				id: "00000000000000C5",
+				type: "kill",
+				entity: "minecraft:wither",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: "0000000000000399",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "0000000000000497",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 3
+				},
+				{
+					id: "000000000000049D",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 10
+				},
+				{
+					id: "00000000000004A3",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 5
+				},
+				{
+					id: "00000000000004A9",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 5
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: 1.5d,
+			dependencies: ["00000000000000CA"],
+			id: "00000000000000C6",
+			tasks: [{
+				id: "00000000000000C7",
+				type: "kill",
+				entity: "minecraft:ender_dragon",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: "0000000000000394",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "000000000000049C",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 3
+				},
+				{
+					id: "00000000000004A2",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 10
+				},
+				{
+					id: "00000000000004A8",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 5
+				},
+				{
+					id: "00000000000004AE",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 5
+				}
+			]
+		},
+		{
+			title: "See you in Hell!",
+			x: 8.5d,
+			y: 3.5d,
+			dependencies: ["00000000000000B9"],
+			id: "00000000000000C8",
+			tasks: [{
+				id: "00000000000000C9",
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}],
+			rewards: [{
+				id: "00000000000001C6",
+				type: "item",
+				item: "quark:nether_brick_chest",
+				count: 2
+			}]
+		},
+		{
+			title: "This is the End.....",
+			x: 10.0d,
+			y: 1.5d,
+			dependencies: ["00000000000000BB"],
+			id: "00000000000000CA",
+			tasks: [{
+				id: "00000000000000CB",
+				type: "dimension",
+				dimension: "minecraft:the_end"
+			}],
+			rewards: [
+				{
+					id: "0000000000000278",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 3
+				},
+				{
+					id: "000000000000039F",
+					type: "item",
+					item: "minecraft:enchanted_golden_apple"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 4.0d,
+			dependencies: ["000000000000003F"],
+			id: "00000000000000D0",
+			tasks: [{
+				id: "00000000000000D1",
+				type: "item",
+				item: "pickletweaks:magnet"
+			}],
+			rewards: [
+				{
+					id: "00000000000003A4",
+					type: "item",
+					item: "minecraft:pumpkin_pie",
+					count: 3
+				},
+				{
+					id: "00000000000003A5",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 13.0d,
+			y: 1.0d,
+			dependencies: ["00000000000000C6"],
+			id: "00000000000000D2",
+			tasks: [{
+				id: "00000000000000D3",
+				type: "item",
+				item: {
+					id: "minecraft:elytra",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000395",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "000000000000049B",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 3
+				},
+				{
+					id: "00000000000004A1",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 10
+				},
+				{
+					id: "00000000000004A7",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 5
+				},
+				{
+					id: "00000000000004AD",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 5
+				}
+			]
+		},
+		{
+			title: "Pillager Changes",
+			x: 4.0d,
+			y: -3.0d,
+			description: [
+				"Killing a Raid Captain no longer grants the Bad Omen effect, instead the effect can be applied by burning its banner using a Flint and Steel.",
+				"",
+				"Pillagers can drop Arrows, have improved AI, and may spawn with a Firework Rocket that they can fire."
+			],
+			dependencies: ["0000000000000052"],
+			id: "000000000000011F",
+			tasks: [{
+				id: "0000000000000120",
+				type: "item",
+				item: "minecraft:bell"
+			}],
+			rewards: [
+				{
+					id: "00000000000001D5",
+					type: "item",
+					item: "minecraft:golden_carrot",
+					count: 3
+				},
+				{
+					id: "0000000000000275",
+					type: "item",
+					item: "minecraft:emerald"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 3.0d,
+			dependencies: ["000000000000003F"],
+			id: "0000000000000121",
+			tasks: [{
+				id: "0000000000000122",
+				type: "item",
+				item: {
+					id: "pickletweaks:watering_can",
+					Count: 1b,
+					tag: {
+						Water: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000001BC",
+				type: "item",
+				item: "quark:yellow_blossom_sapling"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			dependencies: ["0000000000000045"],
+			id: "0000000000000123",
+			tasks: [{
+				id: "0000000000000124",
+				type: "item",
+				item: {
+					id: "minecraft:diamond_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "00000000000001CF",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+				},
+				{
+					id: "0000000000000387",
+					type: "item",
+					item: "minecraft:black_dye",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -5.0d,
+			dependencies: ["000000000000004C"],
+			id: "0000000000000125",
+			tasks: [{
+				id: "0000000000000126",
+				type: "item",
+				item: {
+					id: "pickletweaks:emerald_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "00000000000001D0",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+				},
+				{
+					id: "00000000000001D1",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+				},
+				{
+					id: "00000000000001D2",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strength"
+						}
+					}
+				},
+				{
+					id: "0000000000000388",
+					type: "item",
+					item: "minecraft:ender_pearl",
+					count: 3
+				}
+			]
+		},
+		{
+			title: "Farming Bob",
+			x: 2.5d,
+			y: -0.5d,
+			dependencies: ["0000000000000011"],
+			id: "0000000000000171",
+			tasks: [
+				{
+					id: "0000000000000172",
+					type: "item",
+					item: "minecraft:sugar_cane"
+				},
+				{
+					id: "0000000000000173",
+					type: "item",
+					item: "minecraft:wheat_seeds"
+				},
+				{
+					id: "0000000000000174",
+					type: "item",
+					item: "minecraft:beetroot_seeds"
+				}
+			],
+			rewards: [{
+				id: "00000000000001D4",
+				type: "item",
+				item: "minecraft:golden_carrot",
+				count: 3
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -3.0d,
+			dependencies: ["0000000000000052"],
+			id: "0000000000000175",
+			tasks: [{
+				id: "0000000000000176",
+				type: "item",
+				item: "minecraft:dark_oak_boat"
+			}],
+			rewards: [
+				{
+					id: "00000000000001D3",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+				},
+				{
+					id: "00000000000002CE",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "00000000000004B3",
+					type: "item",
+					item: "minecraft:ink_sac",
+					count: 16
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: -4.0d,
+			dependencies: ["0000000000000175"],
+			id: "0000000000000177",
+			tasks: [{
+				id: "0000000000000178",
+				type: "item",
+				item: "extraboats:spruce_chest_boat"
+			}],
+			rewards: [{
+				id: "00000000000002CF",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -5.0d,
+			dependencies: ["0000000000000177"],
+			id: "0000000000000179",
+			tasks: [{
+				id: "000000000000017A",
+				type: "item",
+				item: "extraboats:large_jungle_boat"
+			}],
+			rewards: [{
+				id: "00000000000002D0",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -4.5d,
+			dependencies: ["00000000000000B1"],
+			id: "00000000000001B2",
+			tasks: [{
+				id: "00000000000001B3",
+				type: "item",
+				item: "mcwfurnitures:spruce_plate"
+			}],
+			rewards: [{
+				id: "00000000000001B4",
+				type: "item",
+				item: "mcwfurnitures:spruce_dresser_14"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.5d,
+			dependencies: ["0000000000000171"],
+			id: "00000000000002A6",
+			tasks: [{
+				id: "0CD32F7F41A22540",
+				type: "item",
+				item: "farmingforblockheads:chicken_nest"
+			}],
+			rewards: [{
+				id: "00000000000002D8",
+				type: "item",
+				item: "minecraft:egg",
+				count: 4
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 2.0d,
+			dependencies: ["00000000000000C6"],
+			id: "00000000000002A8",
+			tasks: [{
+				id: "00000000000002A9",
+				type: "item",
+				item: "minecraft:shulker_box"
+			}],
+			rewards: [
+				{
+					id: "0000000000000396",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "000000000000049A",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 3
+				},
+				{
+					id: "00000000000004A0",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 10
+				},
+				{
+					id: "00000000000004A6",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 5
+				},
+				{
+					id: "00000000000004AC",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 5
+				}
+			]
+		},
+		{
+			title: "Iron Armor",
+			x: 1.0d,
+			y: 4.0d,
+			dependencies: ["000000000000003F"],
+			id: "00000000000002AA",
+			tasks: [
+				{
+					id: "00000000000002AB",
+					type: "item",
+					item: {
+						id: "minecraft:iron_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "00000000000002AC",
+					type: "item",
+					item: {
+						id: "minecraft:iron_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "00000000000002AD",
+					type: "item",
+					item: {
+						id: "minecraft:iron_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "00000000000002AE",
+					type: "item",
+					item: {
+						id: "minecraft:iron_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "00000000000002D9",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3,
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				},
+				{
+					id: "00000000000002DA",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1,
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -2.5d,
+			dependencies: ["00000000000002A6"],
+			id: "00000000000002C0",
+			tasks: [{
+				id: "00000000000002C1",
+				type: "item",
+				item: "quark:feeding_trough"
+			}],
+			rewards: [{
+				id: "00000000000002DB",
+				type: "item",
+				item: "minecraft:wheat",
+				count: 16
+			}]
+		},
+		{
+			title: "Collect them all!",
+			x: 1.0d,
+			y: -1.5d,
+			dependencies: ["0000000000000013"],
+			id: "0000000000000324",
+			tasks: [
+				{
+					id: "0000000000000328",
+					type: "item",
+					item: "enhanced_mushrooms:brown_mushroom_chest"
+				},
+				{
+					id: "0000000000000329",
+					type: "item",
+					item: "enhanced_mushrooms:glowshroom_chest"
+				},
+				{
+					id: "000000000000032A",
+					type: "item",
+					item: "quark:mushroom_chest"
+				},
+				{
+					id: "000000000000032B",
+					type: "item",
+					item: "quark:prismarine_chest"
+				},
+				{
+					id: "000000000000032C",
+					type: "item",
+					item: "quark:purpur_chest"
+				},
+				{
+					id: "000000000000032D",
+					type: "item",
+					item: "quark:nether_brick_chest"
+				},
+				{
+					id: "000000000000032F",
+					type: "item",
+					item: "quark:dark_oak_chest"
+				},
+				{
+					id: "0000000000000330",
+					type: "item",
+					item: "quark:acacia_chest"
+				},
+				{
+					id: "0000000000000331",
+					type: "item",
+					item: "quark:jungle_chest"
+				},
+				{
+					id: "0000000000000332",
+					type: "item",
+					item: "quark:birch_chest"
+				},
+				{
+					id: "0000000000000333",
+					type: "item",
+					item: "quark:spruce_chest"
+				},
+				{
+					id: "0000000000000334",
+					type: "item",
+					item: "upgrade_aquatic:river_chest"
+				},
+				{
+					id: "0000000000000335",
+					type: "item",
+					item: "quark:oak_chest"
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: -3.5d,
+			dependencies: ["0000000000000052"],
+			id: "0000000000000576",
+			tasks: [{
+				id: "0000000000000577",
+				type: "item",
+				item: {
+					id: "naturescompass:naturescompass",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000578",
+				type: "item",
+				item: "randomite:randomite_ore",
+				count: 5
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 2.0d,
+			dependencies: ["000000000000003F"],
+			id: "2905E28F8D5B3EBA",
+			tasks: [{
+				id: "22DE28673C93915D",
+				type: "item",
+				item: "minecraft:smithing_table"
+			}],
+			rewards: [
+				{
+					id: "1237AC8447ED29F9",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					random_bonus: 3
+				},
+				{
+					id: "1EF8169BE1CA21E9",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 10.125d,
+			y: 5.0d,
+			shape: "gear",
+			dependencies: ["3805D1BB400ED6FE"],
+			size: 1.25d,
+			id: "2DF27127FDA87390",
+			tasks: [{
+				id: "57F32C8A974D4F2A",
+				type: "item",
+				item: "minecraft:netherite_ingot"
+			}],
+			rewards: [
+				{
+					id: "6AE763B0DD89CDF3",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "1D78FC4484F74D72",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 2,
+					random_bonus: 4
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: -1.5d,
+			dependencies: ["00000000000000B7"],
+			id: "651820BD24980E1B",
+			tasks: [{
+				id: "451889AD2D8D5493",
+				type: "item",
+				item: "apotheosis:hellshelf"
+			}],
+			rewards: [{
+				id: "4B3D2A7CC911A23F",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -2.0d,
+			dependencies: [
+				"00000000000000B7",
+				"2547D23A71DEFCBC"
+			],
+			id: "01C6EF92B176B189",
+			tasks: [{
+				id: "74B17D9141E92D6B",
+				type: "item",
+				item: "apotheosis:seashelf"
+			}],
+			rewards: [{
+				id: "294B05CC2D76A788",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -0.5d,
+			dependencies: ["00000000000000B7"],
+			id: "182AB3EBAA19980A",
+			tasks: [{
+				id: "6BCA281E253791F9",
+				type: "item",
+				item: "apotheosis:endshelf"
+			}],
+			rewards: [{
+				id: "77364FCBC39B1B34",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 0.5d,
+			dependencies: ["0000000000000047"],
+			id: "55A44D5945D38FD3",
+			tasks: [{
+				id: "189279CF11901EA9",
+				type: "item",
+				item: "apotheosis:prismatic_altar"
+			}],
+			rewards: [{
+				id: "6923964E7B56BD31",
+				type: "xp_levels",
+				xp_levels: 10
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -4.5d,
+			dependencies: ["0000000000000061"],
+			id: "7D230634002DECFC",
+			tasks: [{
+				id: "47FCA858CDFD324C",
+				type: "item",
+				item: "backpacker:netherpack"
+			}],
+			rewards: [{
+				id: "15CA66E9622E511B",
+				type: "item",
+				item: "minecraft:nether_gold_ore",
+				random_bonus: 2
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -5.5d,
+			dependencies: ["7D230634002DECFC"],
+			id: "5AB2D45EA1A7716E",
+			tasks: [{
+				id: "34F28BC0DBFC467F",
+				type: "item",
+				item: "backpacker:shulkerpack"
+			}],
+			rewards: [{
+				id: "714625C9EF1365D9",
+				type: "item",
+				item: "betterendforge:ender_ore",
+				random_bonus: 2
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -6.5d,
+			dependencies: ["5AB2D45EA1A7716E"],
+			id: "48F77E715C9097BB",
+			tasks: [{
+				id: "35D5AC353CB4C4DF",
+				type: "item",
+				item: "backpacker:endersack"
+			}],
+			rewards: [{
+				id: "4C0B2E1006F497EE",
+				type: "item",
+				item: "randomite:randomite_ore",
+				random_bonus: 3
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 2.5d,
+			dependencies: ["155E4E7BC087647A"],
+			id: "6668401BF4304212",
+			tasks: [{
+				id: "7D930A359922D5E7",
+				type: "item",
+				item: "minecraft:brewing_stand"
+			}],
+			rewards: [{
+				id: "57A26A8D0FD349C1",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:water"
+					}
+				},
+				count: 5
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 2.5d,
+			dependencies: ["00000000000000C8"],
+			id: "155E4E7BC087647A",
+			tasks: [{
+				id: "5043B99BF9B87153",
+				type: "item",
+				item: "minecraft:blaze_rod"
+			}],
+			rewards: [{
+				id: "685BB37A3BAD7949",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 5.0d,
+			dependencies: ["00000000000000C8"],
+			id: "3805D1BB400ED6FE",
+			tasks: [{
+				id: "169DFBA331053040",
+				type: "item",
+				item: "minecraft:ancient_debris"
+			}],
+			rewards: [
+				{
+					id: "55FF34C88CB0DC2D",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "4D63B5EABF812A8B",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					random_bonus: 2
+				}
+			]
+		},
+		{
+			title: "Diamond Armor",
+			x: 2.5d,
+			y: 1.5d,
+			description: [""],
+			dependencies: ["0000000000000045"],
+			id: "50DF10155B7366FF",
+			tasks: [
+				{
+					id: "6BB131699E21FDB6",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "2D22FE1D7EB7149D",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1640D7A699DEF0DA",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "6165A318A0C852C0",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "289A3343DB83D85F",
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: "1915B9AA39E3E620",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "quark:long_resistance"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 7.0d,
+			y: -3.0d,
+			dependencies: ["0000000000000175"],
+			id: "2547D23A71DEFCBC",
+			tasks: [{
+				id: "56A3B7D99C8D4AE2",
+				type: "item",
+				item: "minecraft:prismarine_crystals"
+			}],
+			rewards: [{
+				id: "1D75548CF5460C7B",
+				type: "item",
+				item: "aquaculture:box"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -3.0d,
+			dependencies: ["2547D23A71DEFCBC"],
+			id: "35C79FAAB30AAA94",
+			tasks: [{
+				id: "03D93F95AF4B7C27",
+				type: "item",
+				item: "minecraft:sea_lantern"
+			}],
+			rewards: [{
+				id: "69965FF1672CDEF5",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -4.0d,
+			dependencies: ["2547D23A71DEFCBC"],
+			id: "7214623FA9AD831F",
+			tasks: [{
+				id: "5B27EF8089647815",
+				type: "item",
+				item: "upgrade_aquatic:thrasher_tooth"
+			}],
+			rewards: [{
+				id: "6815BEF6870BDA7D",
+				type: "item",
+				item: "aquaculture:box"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -5.0d,
+			dependencies: ["0000000000000177"],
+			id: "47364855F06FE4C1",
+			tasks: [{
+				id: "528621BB05EA0814",
+				type: "item",
+				item: "minecraft:sea_pickle"
+			}],
+			rewards: [{
+				id: "6F19971D68A1224B",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -4.0d,
+			dependencies: ["7214623FA9AD831F"],
+			id: "5CBEE027F9B2BB6E",
+			tasks: [{
+				id: "7638244305D2B4B3",
+				type: "item",
+				item: {
+					id: "minecraft:trident",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "6FB586E06579E685",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -0.5d,
+			description: [
+				"Quests come in a number of different types in this pack.",
+				"",
+				"You can have quests for simply traveling to a destination or by traveling a certain number of blocks.",
+				"",
+				"A majority of the quests in this pack will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens.",
+				"",
+				"The final quest type, such as this one, simply requires you to click the checkbox in the Tasks box to complete the quest (as a confirmation of reading :]).",
+				"",
+				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
+			],
+			dependencies: ["0000000000000008"],
+			id: "33886A5EFC27C3B4",
+			tasks: [{
+				id: "2A4D9ED1B278E912",
+				type: "checkmark",
+				title: "Quest Types and Rewards",
+				icon: "minecraft:writable_book"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 0.5d,
+			description: [
+				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest.",
+				"You can always come back here to read them again.",
+				"",
+				"- Gain variable benefits for eating a greater variety of foods.",
+				"- Harvest groups of blocks at time to speed up mining, harvesting, and tilling."
+			],
+			dependencies: ["33886A5EFC27C3B4"],
+			id: "50AFC676130E87C4",
+			tasks: [{
+				id: "2E10385D8AB84F2F",
+				type: "checkmark",
+				title: "New Mechanics",
+				icon: "minecraft:barrier"
+			}],
+			rewards: [{
+				id: "5370B2C62673821E",
+				type: "item",
+				item: "aquaculture:box"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 1.5d,
+			subtitle: "Ore Excavation/Veinminer Alternative",
+			description: [
+				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key).",
+				"",
+				"- Renders white lines around blocks that will be mined.",
+				"- You can also use hoe on grass in similar way to till multiple blocks at once",
+				"- Harvest crops by right-clicking on them",
+				"",
+				"Select a shape by holding shift and the grave key while scrolling the mouse scroll wheel. ",
+				"- Shapeless: No shape applied.",
+				"- Small Tunnel: A 1x1 deep tunnel.",
+				"- Small Square: A 3x3x1. (Depth of one. If you want a long 3x3 tunnel, you are probably better off digging 9 separate small tunnels.) ",
+				"- Mining Tunnel: A 1x1 tunnel angled down. (You will need at least 3 of these to form stairs you can walk down.)",
+				"- Escape Tunnel: Same as the mining tunnel, but upward.",
+				"",
+				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
+			],
+			dependencies: ["50AFC676130E87C4"],
+			id: "72BFE0836C00EDB8",
+			tasks: [{
+				id: "6CE4CBD49CC0573A",
+				type: "checkmark",
+				title: "FTB Ultimine",
+				icon: {
+					id: "gemsnjewels:solid_black_opal_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "16C68C828A31E4E2",
+				type: "item",
+				item: "aquaculture:box"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 1.5d,
+			subtitle: "Benefis for eating different food!",
+			description: [
+				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods.",
+				"",
+				"You will receive variable benefits depending on how diverse your current diet is, and has been in the recent past.",
+				"",
+				"You will have to maintain that level of diversity to keep those benefits. This should encourage automation of a variety of foods, rather than just encouraging you to eat each food once (SoL: Carrot Edition).",
+				"",
+				"*Note: This means your diversity score is constantly and dynamically changing depending on what your current and past diet.",
+				"Thus, you can have many benefits after eating a diverse set of foods for a time, but falling back to eating only bread will gradually result in a loss/weakening of gained benefits.",
+				"To get a higher diversity score, you need to keep including more and more diverse types of foods in your diet."
+			],
+			dependencies: ["50AFC676130E87C4"],
+			id: "1D857C5D4DF99256",
+			tasks: [{
+				id: "63EF8646E409CD6E",
+				type: "checkmark",
+				title: "Spice Of Life: Potato Edition",
+				icon: "minecraft:potato"
+			}],
+			rewards: [{
+				id: "4EB8ABFB53015486",
+				type: "item",
+				item: "minecraft:apple"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -3.5d,
+			dependencies: ["0000000000000049"],
+			id: "17DBC0D107E5A01C",
+			tasks: [{
+				id: "35BEECAB32FEB551",
+				type: "item",
+				item: "minecraft:bone",
+				count: 16L
+			}],
+			rewards: [{
+				id: "42544D0438D8814E",
+				type: "item",
+				item: "minecraft:egg",
+				count: 2
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -3.5d,
+			dependencies: ["0000000000000049"],
+			id: "3ADC1C40C7380BC1",
+			tasks: [{
+				id: "5123598F7E061393",
+				type: "item",
+				item: "minecraft:slime_ball",
+				count: 16L
+			}],
+			rewards: [{
+				id: "704420EEE97C3390",
+				type: "item",
+				item: "minecraft:ink_sac",
+				count: 3
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -1.5d,
+			dependencies: ["0000000000000049"],
+			id: "1B349F165C93F98E",
+			tasks: [{
+				id: "20C26E379203866F",
+				type: "item",
+				item: "minecraft:rotten_flesh",
+				count: 32L
+			}],
+			rewards: [{
+				id: "4639B9AB972F0689",
+				type: "item",
+				item: "minecraft:clay_ball",
+				count: 3
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -2.5d,
+			dependencies: ["0000000000000049"],
+			id: "637F10E7C1485B08",
+			tasks: [{
+				id: "1F5764EF7F0550B9",
+				type: "item",
+				item: "minecraft:gunpowder",
+				count: 16L
+			}],
+			rewards: [{
+				id: "17B63EF46A951D35",
+				type: "item",
+				item: "minecraft:feather",
+				count: 4
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 6.0d,
+			shape: "gear",
+			dependencies: ["000000000000003F"],
+			size: 1.5d,
+			id: "09DCF997E89A3D37",
+			tasks: [{
+				id: "28174D5298762441",
+				type: "item",
+				item: "farmersdelight:cooking_pot"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.5d,
+			dependencies: ["0000000000000011"],
+			id: "5B014645CB532EE4",
+			tasks: [{
+				id: "2AE166E757406604",
+				type: "item",
+				item: "pickletweaks:coal_piece"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.5d,
+			dependencies: ["0000000000000171"],
+			id: "60CA9F96BF323848",
+			tasks: [{
+				id: "732E1C9630BC8A13",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Size: 5,
+							Items: []
+						}
+					},
+					id: "solpotato:lunchbag",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "02B9E5ECD42DDD19",
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: 1b,
+					tag: {
+						type: "random_dyes"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	id: "00000000000002E5",
+	order_index: 5,
+	title: "Deco Blocks box",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [
+		{
+			item: {
+				id: "endergetic:corrock_overworld_block",
+				Count: 32b
+			}
+		},
+		{
+			item: "quark:dark_elder_prismarine",
+			count: 32
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		},
+		color: 16777215,
+		string_id: "deco_blocks_box"
+	}
+}

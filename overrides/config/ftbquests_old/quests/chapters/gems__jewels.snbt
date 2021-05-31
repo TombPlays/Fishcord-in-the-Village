@@ -1,0 +1,1017 @@
+{
+	id: "00000000000004B9",
+	group: "",
+	order_index: 4,
+	filename: "gems__jewels",
+	title: "Gems and Jewels",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -4.5d,
+			y: -1.5d,
+			id: "00000000000004BA",
+			tasks: [{
+				id: "00000000000004BB",
+				type: "item",
+				item: "gemsnjewels:ruby"
+			}],
+			rewards: [
+				{
+					id: "0000000000000509",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000530",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -1.5d,
+			id: "00000000000004BC",
+			tasks: [{
+				id: "00000000000004BD",
+				type: "item",
+				item: "gemsnjewels:sapphire"
+			}],
+			rewards: [
+				{
+					id: "000000000000050A",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000531",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -1.5d,
+			id: "00000000000004BE",
+			tasks: [{
+				id: "00000000000004BF",
+				type: "item",
+				item: "gemsnjewels:amethyst"
+			}],
+			rewards: [
+				{
+					id: "000000000000050B",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000532",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -1.5d,
+			id: "00000000000004C0",
+			tasks: [{
+				id: "00000000000004C1",
+				type: "item",
+				item: "gemsnjewels:opal"
+			}],
+			rewards: [
+				{
+					id: "000000000000050C",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000533",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -1.5d,
+			id: "00000000000004C2",
+			tasks: [{
+				id: "00000000000004C3",
+				type: "item",
+				item: "gemsnjewels:garnet"
+			}],
+			rewards: [
+				{
+					id: "000000000000050D",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000534",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -1.5d,
+			id: "00000000000004C4",
+			tasks: [{
+				id: "00000000000004C5",
+				type: "item",
+				item: "gemsnjewels:topaz"
+			}],
+			rewards: [
+				{
+					id: "000000000000050E",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000535",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -1.5d,
+			id: "00000000000004C6",
+			tasks: [{
+				id: "00000000000004C7",
+				type: "item",
+				item: "gemsnjewels:peridot"
+			}],
+			rewards: [
+				{
+					id: "000000000000050F",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000536",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -1.5d,
+			id: "00000000000004C8",
+			tasks: [{
+				id: "00000000000004C9",
+				type: "item",
+				item: "gemsnjewels:aquamarine"
+			}],
+			rewards: [
+				{
+					id: "0000000000000510",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000537",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -1.5d,
+			id: "00000000000004CA",
+			tasks: [{
+				id: "00000000000004CB",
+				type: "item",
+				item: "gemsnjewels:zircon"
+			}],
+			rewards: [
+				{
+					id: "0000000000000511",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000538",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			id: "00000000000004CC",
+			tasks: [{
+				id: "00000000000004CD",
+				type: "item",
+				item: "gemsnjewels:alexandrite"
+			}],
+			rewards: [
+				{
+					id: "0000000000000512",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000539",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -1.5d,
+			id: "00000000000004CE",
+			tasks: [{
+				id: "00000000000004CF",
+				type: "item",
+				item: "gemsnjewels:tanzanite"
+			}],
+			rewards: [
+				{
+					id: "0000000000000513",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "000000000000053A",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: -1.5d,
+			id: "00000000000004D0",
+			tasks: [{
+				id: "00000000000004D1",
+				type: "item",
+				item: "gemsnjewels:tourmaline"
+			}],
+			rewards: [
+				{
+					id: "0000000000000514",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "000000000000053B",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: -1.5d,
+			id: "00000000000004D2",
+			tasks: [{
+				id: "00000000000004D3",
+				type: "item",
+				item: "gemsnjewels:spinel"
+			}],
+			rewards: [
+				{
+					id: "0000000000000515",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "000000000000053C",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: -1.5d,
+			id: "00000000000004D4",
+			tasks: [{
+				id: "00000000000004D5",
+				type: "item",
+				item: "gemsnjewels:black_opal"
+			}],
+			rewards: [
+				{
+					id: "0000000000000516",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "000000000000053D",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 9.5d,
+			y: -1.5d,
+			id: "00000000000004D6",
+			tasks: [{
+				id: "00000000000004D7",
+				type: "item",
+				item: "gemsnjewels:citrine"
+			}],
+			rewards: [
+				{
+					id: "0000000000000517",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "000000000000053E",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 10.5d,
+			y: -1.5d,
+			id: "00000000000004D8",
+			tasks: [{
+				id: "00000000000004D9",
+				type: "item",
+				item: "gemsnjewels:morganite"
+			}],
+			rewards: [
+				{
+					id: "0000000000000518",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "000000000000053F",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: -1.5d,
+			id: "00000000000004DA",
+			tasks: [{
+				id: "00000000000004DB",
+				type: "item",
+				item: "gemsnjewels:ametrine"
+			}],
+			rewards: [
+				{
+					id: "0000000000000519",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000540",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 12.5d,
+			y: -1.5d,
+			id: "00000000000004DC",
+			tasks: [{
+				id: "00000000000004DD",
+				type: "item",
+				item: "gemsnjewels:kunzite"
+			}],
+			rewards: [
+				{
+					id: "000000000000051A",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000541",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: -1.5d,
+			id: "00000000000004DE",
+			tasks: [{
+				id: "00000000000004DF",
+				type: "item",
+				item: "gemsnjewels:iolite"
+			}],
+			rewards: [
+				{
+					id: "000000000000051B",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000542",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004BA"],
+			id: "00000000000004E0",
+			tasks: [{
+				id: "00000000000004E1",
+				type: "item",
+				item: {
+					id: "gemsnjewels:ruby_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000051C",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000543",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004BC"],
+			id: "00000000000004E2",
+			tasks: [{
+				id: "00000000000004E3",
+				type: "item",
+				item: {
+					id: "gemsnjewels:sapphire_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000051D",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000544",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004BE"],
+			id: "00000000000004E4",
+			tasks: [{
+				id: "00000000000004E5",
+				type: "item",
+				item: {
+					id: "gemsnjewels:amethyst_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000051E",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000545",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004C0"],
+			id: "00000000000004E6",
+			tasks: [{
+				id: "00000000000004E7",
+				type: "item",
+				item: {
+					id: "gemsnjewels:opal_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000051F",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000546",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004C2"],
+			id: "00000000000004E8",
+			tasks: [{
+				id: "00000000000004E9",
+				type: "item",
+				item: {
+					id: "gemsnjewels:garnet_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000520",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000547",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004C4"],
+			id: "00000000000004EA",
+			tasks: [{
+				id: "00000000000004EB",
+				type: "item",
+				item: {
+					id: "gemsnjewels:topaz_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000521",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000548",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004C6"],
+			id: "00000000000004EC",
+			tasks: [{
+				id: "00000000000004ED",
+				type: "item",
+				item: {
+					id: "gemsnjewels:peridot_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000522",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000549",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004C8"],
+			id: "00000000000004EE",
+			tasks: [{
+				id: "00000000000004EF",
+				type: "item",
+				item: {
+					id: "gemsnjewels:aquamarine_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000523",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "000000000000054A",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004CA"],
+			id: "00000000000004F0",
+			tasks: [{
+				id: "00000000000004F1",
+				type: "item",
+				item: {
+					id: "gemsnjewels:zircon_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000524",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "000000000000054B",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004CC"],
+			id: "00000000000004F2",
+			tasks: [{
+				id: "00000000000004F3",
+				type: "item",
+				item: {
+					id: "gemsnjewels:alexandrite_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000525",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "000000000000054C",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004CE"],
+			id: "00000000000004F4",
+			tasks: [{
+				id: "00000000000004F5",
+				type: "item",
+				item: {
+					id: "gemsnjewels:tanzanite_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000526",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "000000000000054D",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004D0"],
+			id: "00000000000004F6",
+			tasks: [{
+				id: "00000000000004F7",
+				type: "item",
+				item: {
+					id: "gemsnjewels:tourmaline_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000527",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "000000000000054E",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004D2"],
+			id: "00000000000004F8",
+			tasks: [{
+				id: "00000000000004F9",
+				type: "item",
+				item: {
+					id: "gemsnjewels:spinel_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000528",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "000000000000054F",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004D4"],
+			id: "00000000000004FA",
+			tasks: [{
+				id: "00000000000004FB",
+				type: "item",
+				item: {
+					id: "gemsnjewels:black_opal_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000529",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000550",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 9.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004D6"],
+			id: "00000000000004FC",
+			tasks: [{
+				id: "00000000000004FD",
+				type: "item",
+				item: {
+					id: "gemsnjewels:citrine_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000052A",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000551",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 10.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004D8"],
+			id: "00000000000004FE",
+			tasks: [{
+				id: "00000000000004FF",
+				type: "item",
+				item: {
+					id: "gemsnjewels:morganite_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000052B",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000552",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004DA"],
+			id: "0000000000000500",
+			tasks: [{
+				id: "0000000000000501",
+				type: "item",
+				item: {
+					id: "gemsnjewels:ametrine_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000052C",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000553",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 12.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004DC"],
+			id: "0000000000000502",
+			tasks: [{
+				id: "0000000000000503",
+				type: "item",
+				item: {
+					id: "gemsnjewels:kunzite_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000052D",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000554",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: -2.5d,
+			dependencies: ["00000000000004DE"],
+			id: "0000000000000504",
+			tasks: [{
+				id: "0000000000000505",
+				type: "item",
+				item: {
+					id: "gemsnjewels:iolite_set_gold_ring",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000052E",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000555",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			icon: "itemfilters:not",
+			x: 5.0d,
+			y: -0.5d,
+			description: [
+				"Gems can by crafted into rings which can then by used to upgrade vanilla tools using the crafting table ",
+				"",
+				"Tools upgraded with a ring gain the ability to level up, track stats, and gain perks & titles. ",
+				"- Jeweled Sword: Tracks the number of mobs the sword has slain. Levels up every 10 mobs slain.",
+				"- Jeweled Pickaxe: Tracks the number of ores mined by the pickaxe. Levels up every 10 ores mined.",
+				"- Jeweled Axe: Tracks the number of logs chopped and the number of mobs slain. Gains level progress from chopping blocks, slaying mobs, or stripping logs.",
+				"- Jeweled Shovel: Tracks the number of blocks dug. Gains level progress from breaking blocks or creating paths.",
+				"- Jeweled Hoe: Tracks the number of blocks hoed. Gains level progress from hoeing ground."
+			],
+			id: "0000000000000506",
+			tasks: [{
+				id: "0000000000000507",
+				type: "checkmark",
+				title: "Gems & Jewels"
+			}],
+			rewards: [
+				{
+					id: "0000000000000508",
+					type: "item",
+					item: "minecraft:golden_carrot"
+				},
+				{
+					id: "000000000000052F",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "0000000000000556",
+					type: "xp",
+					xp: 10
+				}
+			]
+		}
+	]
+}

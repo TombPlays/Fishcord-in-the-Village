@@ -1,0 +1,1349 @@
+{
+	id: "5A62415E6BEF0970",
+	group: "",
+	order_index: 4,
+	filename: "my_colony",
+	title: "My Colony",
+	icon: "minecolonies:supplycampdeployer",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Supply Camp",
+			x: -1.0d,
+			y: 0.0d,
+			description: [
+				"Before you get started on your new colony, you should find your perfect location. You need a large enough area for a full city-at least 8x8 chunks, and decently flat.",
+				"",
+				"You should also gather as many resources as you can-wood, as well as cobble, coal, iron, flowers, string, leather, wool, saplings, and food.",
+				"",
+				"Once you have chosen a location for your colony, you must place a Supply Ship or Supply Camp. You can only place one of these per world. The Supply Camp/Ship gives you the Town Hall block you need to officially start your colony.",
+				"They also have some other supplies you may need during the building of your colony. Once you have the Town Hall block and the building tool, the remaining camp/ship is just decoration. You can leave it or tear it down."
+			],
+			dependencies: ["00000000000000F0"],
+			id: "00000000000000CC",
+			tasks: [{
+				id: "4E354A738A8DA865",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "minecolonies:supplycampdeployer",
+								Count: 1b
+							},
+							{
+								id: "minecolonies:supplychestdeployer",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000204",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "0000000000000372",
+					type: "item",
+					item: "minecraft:oak_log",
+					count: 16
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 0.0d,
+			description: [
+				"The Town Hall block is what actually creates the colony. It also functions as the center of it. This is where you start using the building tool to place buildings. Using the building tool ensures you can see exactly where the building will be, which",
+				"direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level).",
+				"",
+				"Once the Town Hall block is placed, you will start receiving your initial 4 citizens."
+			],
+			dependencies: ["00000000000000CC"],
+			dependency_requirement: "one_completed",
+			id: "00000000000000D7",
+			tasks: [
+				{
+					id: "00000000000000D8",
+					type: "item",
+					item: "minecolonies:blockhuttownhall"
+				},
+				{
+					id: "00000000000000D9",
+					type: "item",
+					item: "structurize:sceptergold"
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000000203",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "000000000000020D",
+					type: "item",
+					item: "minecraft:stone",
+					count: 64
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			description: ["Before anything can be built, you need a Builder. The Builder must build their own Builder’s Hut before building any other huts, and they cannot build or upgrade a hut to a higher level than their own hut level."],
+			dependencies: ["00000000000000D7"],
+			id: "00000000000000DA",
+			tasks: [{
+				id: "00000000000000DB",
+				type: "item",
+				item: "minecolonies:blockhutbuilder"
+			}],
+			rewards: [
+				{
+					id: "0000000000000202",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "0000000000000207",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "000000000000020C",
+					type: "item",
+					item: "minecraft:cobblestone",
+					count: 64
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 0.0d,
+			description: ["Your colonists will need a place to sleep and a house, so it is recommended to build a Tavern next. The Tavern also allows visitors to come to your colony, and you can recruit them to stay as citizens."],
+			dependencies: ["00000000000000DA"],
+			id: "00000000000000DC",
+			tasks: [{
+				id: "00000000000000DD",
+				type: "item",
+				item: "minecolonies:blockhuttavern"
+			}],
+			rewards: [
+				{
+					id: "00000000000001CB",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+				},
+				{
+					id: "00000000000001F2",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "0000000000000373",
+					type: "item",
+					item: "minecraft:red_bed"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 1.5d,
+			description: [
+				"The next major thing you need for your colony is food. The fastest way to get food is to build a Fisherman’s Hut. You could build a Farm or one of the animal herders, but a Fisherman is faster. Building a Restaurant may also be advisable if you don’t",
+				"want to feed your colonists (or cook their food) by hand."
+			],
+			dependencies: ["00000000000000DC"],
+			id: "00000000000000DE",
+			tasks: [{
+				id: "00000000000000DF",
+				type: "item",
+				item: "minecolonies:blockhutfisherman"
+			}],
+			rewards: [
+				{
+					id: "00000000000001F3",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "0000000000000201",
+					type: "item",
+					item: {
+						id: "minecraft:fishing_rod",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 1.5d,
+			description: [
+				"The Farm is where the Farmer will grow crops for your colony. The crops the Farmer currently cultivates are wheat, carrots, potatoes, beets, melons, pumpkins, and most crops from other mods.",
+				"Before the Farmer can start, you will have to give the Farmer a hoe, an axe (for harvesting crops), and the crop you want to cultivate.",
+				"",
+				"The Farmer will also craft seeds, carved pumpkins, and hay bales. They will only make items when they have been taught the recipes, receive a request for an item, and have the needed materials.",
+				"",
+				"For the Farmer to start, you will also need to place fields. Place the Field block (it looks like a scarecrow) in the plot of farmland you want the Farmer to work on and right-click on it to access its GUI. Here you will place the crop you want this ",
+				"specific field to cultivate. If you decide later to change the type of crop you want cultivated in that farmland, just go into the Field’s GUI and switch the crop there.",
+				"",
+				"Note: The Farmer will only till and cultivate crops that are up to five blocks from the field block. The farmland can be delimited by placing solid blocks (non-tillable: sand, cobblestone, wood, etc) or air blocks in the ground next to the tillable",
+				"blocks. This will cause the Farmer to stop cultivating the land at this point, even if there is still tilled and/or tillable land after that solid/air block. Plan accordingly and create your plot(s) in any shape and form you want, taking into account",
+				"that for each field, the Farmer will only work up to 5 blocks from the field block. Remember that for the dirt to be tillable and hold crops, it must have a water source to keep it tilled."
+			],
+			dependencies: ["00000000000000DC"],
+			id: "00000000000000E0",
+			tasks: [
+				{
+					id: "00000000000000E1",
+					type: "item",
+					item: "minecolonies:blockhutfarmer"
+				},
+				{
+					id: "00000000000000FC",
+					type: "item",
+					item: "minecolonies:blockhutfield"
+				}
+			],
+			rewards: [
+				{
+					id: "00000000000001F4",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "0000000000000200",
+					type: "item",
+					item: {
+						id: "minecraft:stone_hoe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "00000000000002EB",
+					type: "item",
+					item: "minecraft:wheat_seeds",
+					count: 16
+				},
+				{
+					id: "00000000000002EF",
+					type: "item",
+					item: "minecolonies:compost",
+					count: 32
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 2.5d,
+			dependencies: ["00000000000000E0"],
+			id: "00000000000000E2",
+			tasks: [{
+				id: "00000000000000E3",
+				type: "item",
+				item: "minecolonies:blockhutswineherder"
+			}],
+			rewards: [
+				{
+					id: "00000000000001F7",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "0000000000000281",
+					type: "item",
+					item: "minecraft:paper",
+					count: 8
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: 3.5d,
+			dependencies: ["00000000000000E0"],
+			id: "00000000000000E4",
+			tasks: [{
+				id: "00000000000000E5",
+				type: "item",
+				item: "minecolonies:blockhutchickenherder"
+			}],
+			rewards: [
+				{
+					id: "00000000000001F8",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "0000000000000282",
+					type: "item",
+					item: "minecraft:paper",
+					count: 8
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 0.5d,
+			description: [
+				"The Lumberjack’s Hut is where the Lumberjack will go in between chopping down trees. The Lumberjack will cut down any tree in an approximate 150 block area (from themselves)",
+				"that is not in a hut schematic and doesn’t have cobblestone placed beneath it."
+			],
+			dependencies: ["00000000000000DC"],
+			id: "00000000000000E6",
+			tasks: [{
+				id: "00000000000000E7",
+				type: "item",
+				item: "minecolonies:blockhutlumberjack"
+			}],
+			rewards: [
+				{
+					id: "00000000000001F5",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "00000000000001FF",
+					type: "item",
+					item: {
+						id: "minecraft:stone_axe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: -0.5d,
+			description: [
+				"The Mine is where the Miner will mine for ores and materials. Once they are hired, the Miner will create a shaft downward and then branch out.",
+				"",
+				"Hint: The shaft the Miner creates downwards will go to a specific depth depending on the level of the Mine. So if you want them to go deeper and get to the good ores, you will have to upgrade the Mine."
+			],
+			dependencies: ["00000000000000DC"],
+			id: "00000000000000E8",
+			tasks: [{
+				id: "00000000000000E9",
+				type: "item",
+				item: "minecolonies:blockhutminer"
+			}],
+			rewards: [
+				{
+					id: "00000000000001F0",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "00000000000001FE",
+					type: "item",
+					item: {
+						id: "minecraft:stone_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: -1.5d,
+			description: [
+				"The Guard Tower will employ and house 1 Guard to protect your colony. The new Guard will need a bed in a house in order to spawn. However, once they are hired at the Guard Tower, that becomes their new residence and the bed in the house will open up ",
+				"for another new citizen (child or recruit).",
+				"",
+				"Note: If you place Guard Towers near your colony border and level them up, your border will expand."
+			],
+			dependencies: ["00000000000000DC"],
+			id: "00000000000000EA",
+			tasks: [{
+				id: "00000000000000EB",
+				type: "item",
+				item: "minecolonies:blockhutguardtower"
+			}],
+			rewards: [
+				{
+					id: "00000000000001ED",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "00000000000001FC",
+					type: "item",
+					item: {
+						id: "minecraft:bow",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "00000000000001FD",
+					type: "item",
+					item: "minecraft:arrow",
+					count: 32
+				}
+			]
+		},
+		{
+			x: 13.0d,
+			y: -1.5d,
+			dependencies: ["0000000000000105"],
+			id: "00000000000000EC",
+			tasks: [{
+				id: "00000000000000ED",
+				type: "item",
+				item: "minecolonies:blockhuthospital"
+			}],
+			rewards: [
+				{
+					id: "00000000000001E7",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "000000000000027F",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+				},
+				{
+					id: "00000000000002F0",
+					type: "item",
+					item: "minecraft:carrot",
+					count: 16
+				},
+				{
+					id: "00000000000002F1",
+					type: "item",
+					item: "minecraft:potato",
+					count: 16
+				}
+			]
+		},
+		{
+			title: "Settling Down",
+			x: -2.5d,
+			y: 0.0d,
+			description: [
+				"MineColonies is an interactive building mod that allows you to create your own thriving town within Minecraft. It lets your leadership skills soar by providing you with everything you need to build your kingdom. MineColonies gives you the flexibility",
+				"to create a colony as unique as every player. With so many options, you’ll create a different colony every time, adapt it to any biome, build inside a mountain, on top of one, under the ocean, or in the sky.",
+				"",
+				"MineColonies features NPC workers such as Builders, Farmers, Fishermen, Lumberjacks, Guards, Miners, Smelters, Bakers, Cooks, Deliverymen, four types of animal herders, Composters, and many more, with even more being developed and added as the mod",
+				"grows.",
+				"It also includes specialized buildings such as the Warehouse, Citizen’s Hut, Town Hall, Barracks, Library, University, and even the School."
+			],
+			size: 1.5d,
+			id: "00000000000000F0",
+			tasks: [{
+				id: "00000000000000F1",
+				type: "checkmark",
+				icon: "itemfilters:not"
+			}],
+			rewards: [
+				{
+					id: "0000000000000206",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "000000000000020B",
+					type: "item",
+					item: "minecraft:emerald"
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 2.5d,
+			dependencies: ["00000000000000E0"],
+			id: "00000000000000F2",
+			tasks: [{
+				id: "00000000000000F3",
+				type: "item",
+				item: "minecolonies:blockhutcowboy"
+			}],
+			rewards: [
+				{
+					id: "00000000000001FA",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "0000000000000284",
+					type: "item",
+					item: "minecraft:paper",
+					count: 8
+				}
+			]
+		},
+		{
+			x: 13.0d,
+			y: 1.5d,
+			dependencies: ["0000000000000105"],
+			id: "00000000000000F4",
+			tasks: [{
+				id: "00000000000000F5",
+				type: "item",
+				item: "minecolonies:blockhutcomposter"
+			}],
+			rewards: [
+				{
+					id: "00000000000001EA",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "7469C5AB50F94D85",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 1.5d,
+			description: ["The Restaurant is where the Cook will cook food, provided they have the necessary ingredients and fuel. When citizens are hungry, they will come to the Restaurant and the Cook will give them food."],
+			dependencies: ["00000000000000E0"],
+			id: "00000000000000F6",
+			tasks: [{
+				id: "00000000000000F7",
+				type: "item",
+				item: "minecolonies:blockhutcook"
+			}],
+			rewards: [{
+				id: "00000000000001F6",
+				type: "item",
+				item: "minecraft:emerald"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 1.5d,
+			dependencies: ["00000000000000E0"],
+			id: "00000000000000F8",
+			tasks: [{
+				id: "00000000000000F9",
+				type: "item",
+				item: "minecolonies:blockhutbaker"
+			}],
+			rewards: [
+				{
+					id: "00000000000001FB",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "0000000000000280",
+					type: "item",
+					item: "minecraft:paper",
+					count: 8
+				},
+				{
+					id: "00000000000002ED",
+					type: "item",
+					item: "minecraft:bread",
+					count: 8
+				}
+			]
+		},
+		{
+			x: 7.0d,
+			y: 3.5d,
+			dependencies: ["00000000000000E0"],
+			id: "00000000000000FA",
+			tasks: [{
+				id: "00000000000000FB",
+				type: "item",
+				item: "minecolonies:blockhutshepherd"
+			}],
+			rewards: [
+				{
+					id: "00000000000001F9",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "0000000000000283",
+					type: "item",
+					item: "minecraft:paper",
+					count: 8
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -1.5d,
+			description: [
+				"The Citizen’s Hut is a house for your citizens. They will go to the Citizen’s Hut they are assigned to at night to sleep. It’s also the only way to get more citizens for your colony.Each level of the Citizen’s Hut will house one citizen.",
+				"",
+				"For additional citizens to spawn, you first have to have enough space in your Citizen’s Hut(s) to house your first four citizens. After you have created enough space for your initial four citizens, you have two options for your colony to grow.",
+				"The first way is to have at least one Citizen’s Hut at least level 2 that houses a male and a female citizen, which will allow a child to be born in the colony when there is room. You can also make space for a new citizen, go to the Tavern, wait for ",
+				"a traveler to show up, and then give them the items they request to recruit them.",
+				"",
+				"Note: To have over 25 citizens, you must first complete the research in the University."
+			],
+			dependencies: ["00000000000000DC"],
+			id: "00000000000000FD",
+			tasks: [{
+				id: "00000000000000FE",
+				type: "item",
+				item: "minecolonies:blockhutcitizen"
+			}],
+			rewards: [
+				{
+					id: "00000000000001DC",
+					type: "item",
+					item: {
+						id: "minecraft:clock",
+						Count: 1b,
+						tag: {
+							"quark:clock_calculated": 1
+						}
+					}
+				},
+				{
+					id: "00000000000001F1",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "00000000000002EC",
+					type: "item",
+					item: "minecraft:cooked_beef",
+					count: 16
+				}
+			]
+		},
+		{
+			x: 15.5d,
+			y: -1.0d,
+			dependencies: ["0000000000000101"],
+			id: "00000000000000FF",
+			tasks: [{
+				id: "0000000000000100",
+				type: "item",
+				item: "minecolonies:blockhutcombatacademy"
+			}],
+			rewards: [
+				{
+					id: "00000000000001DE",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "00000000000002F6",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 14.0d,
+			y: -1.0d,
+			dependencies: ["0000000000000105"],
+			id: "0000000000000101",
+			tasks: [{
+				id: "0000000000000102",
+				type: "item",
+				item: "minecolonies:blockhutbarracks"
+			}],
+			rewards: [
+				{
+					id: "00000000000001DF",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "00000000000002F7",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 14.0d,
+			y: -2.5d,
+			dependencies: ["0000000000000101"],
+			id: "0000000000000103",
+			tasks: [{
+				id: "0000000000000104",
+				type: "item",
+				item: "minecolonies:blockhutarchery"
+			}],
+			rewards: [
+				{
+					id: "00000000000001DD",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "00000000000002F5",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: 0.0d,
+			description: ["The University is where a Researcher will research various upgrades to your colony."],
+			dependencies: ["000000000000010B"],
+			id: "0000000000000105",
+			tasks: [{
+				id: "0000000000000106",
+				type: "item",
+				item: "minecolonies:blockhutuniversity"
+			}],
+			rewards: [
+				{
+					id: "00000000000001EC",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "000000000000027B",
+					type: "item",
+					item: "minecraft:paper",
+					count: 8
+				},
+				{
+					id: "00000000000002EE",
+					type: "item",
+					item: "minecraft:book",
+					count: 16
+				}
+			]
+		},
+		{
+			x: 12.0d,
+			y: 2.0d,
+			dependencies: ["0000000000000105"],
+			id: "0000000000000107",
+			tasks: [{
+				id: "0000000000000108",
+				type: "item",
+				item: "minecolonies:blockhutsawmill"
+			}],
+			rewards: [
+				{
+					id: "00000000000001E0",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "00000000000002F8",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 10.0d,
+			y: 1.5d,
+			dependencies: ["0000000000000105"],
+			id: "0000000000000109",
+			tasks: [{
+				id: "000000000000010A",
+				type: "item",
+				item: "minecolonies:blockhutplantation"
+			}],
+			rewards: [
+				{
+					id: "00000000000001EB",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "000000000000027C",
+					type: "item",
+					item: "minecraft:sugar_cane",
+					count: 8
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: 0.0d,
+			description: [
+				"The Warehouse is the central storage from where a Deliveryman will store and retrieve everything your workers harvest, craft, or need. Items will be stored in racks.",
+				"",
+				"The level of the Warehouse will determine how many Deliverymen will be able to use it at the same time. Level up the Warehouse to increase the amount of Deliverymen that can work in it.",
+				"Leveling up the Warehouse will also increase its storage capacity."
+			],
+			dependencies: [
+				"00000000000000EA",
+				"00000000000000E8",
+				"00000000000000E6",
+				"00000000000000E0"
+			],
+			id: "000000000000010B",
+			tasks: [{
+				id: "000000000000010C",
+				type: "item",
+				item: "minecolonies:blockhutwarehouse"
+			}],
+			rewards: [
+				{
+					id: "00000000000001CC",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+				},
+				{
+					id: "00000000000001EF",
+					type: "item",
+					item: "minecraft:emerald"
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: -1.5d,
+			description: [
+				"The Deliveryman runs back and forth from the Warehouse to all the worker huts in your colony, delivering materials to workers and putting finished products in the Warehouse.",
+				"",
+				"Note: You must build the Warehouse to at least level 1, otherwise, the Deliveryman won’t be able to do their job.",
+				"",
+				"The level of the Deliveryman’s Hut will dictate how many items/blocks the Deliveryman can carry to/from Huts-Warehouse-Huts, so if you want them to carry more, be sure to upgrade the Deliveryman’s Hut.",
+				"Also, the higher the level of the hut, the faster the Deliveryman will move between huts and the Warehouse."
+			],
+			dependencies: ["000000000000010B"],
+			id: "000000000000010D",
+			tasks: [{
+				id: "000000000000010E",
+				type: "item",
+				item: "minecolonies:blockhutdeliveryman"
+			}],
+			rewards: [
+				{
+					id: "00000000000001CD",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+				},
+				{
+					id: "00000000000001EE",
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: "0000000000000285",
+					type: "item",
+					item: "minecraft:paper",
+					count: 8
+				}
+			]
+		},
+		{
+			x: 11.0d,
+			y: -2.0d,
+			dependencies: ["0000000000000105"],
+			id: "000000000000010F",
+			tasks: [{
+				id: "0000000000000110",
+				type: "item",
+				item: "minecolonies:blockhutlibrary"
+			}],
+			rewards: [
+				{
+					id: "00000000000001E9",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "000000000000027D",
+					type: "item",
+					item: "minecraft:paper",
+					count: 8
+				},
+				{
+					id: "00000000000002F3",
+					type: "item",
+					item: "minecraft:book",
+					count: 16
+				},
+				{
+					id: "00000000000002F4",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3,
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 14.0d,
+			y: 2.5d,
+			dependencies: ["0000000000000117"],
+			id: "0000000000000111",
+			tasks: [{
+				id: "0000000000000112",
+				type: "item",
+				item: "minecolonies:blockhutmechanic"
+			}],
+			rewards: [
+				{
+					id: "00000000000001E2",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "00000000000002FA",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 12.0d,
+			y: -2.0d,
+			dependencies: ["0000000000000105"],
+			id: "0000000000000113",
+			tasks: [{
+				id: "0000000000000114",
+				type: "item",
+				item: "minecolonies:blockhutschool"
+			}],
+			rewards: [
+				{
+					id: "00000000000001E8",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "000000000000027E",
+					type: "item",
+					item: "minecraft:paper",
+					count: 8
+				},
+				{
+					id: "00000000000002F2",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3,
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 17.0d,
+			y: 2.5d,
+			dependencies: ["000000000000011D"],
+			id: "0000000000000115",
+			tasks: [{
+				id: "0000000000000116",
+				type: "item",
+				item: "minecolonies:blockhutstonesmeltery"
+			}],
+			rewards: [
+				{
+					id: "00000000000001E6",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "00000000000002FE",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 14.0d,
+			y: 1.0d,
+			dependencies: ["0000000000000105"],
+			id: "0000000000000117",
+			tasks: [{
+				id: "0000000000000118",
+				type: "item",
+				item: "minecolonies:blockhutblacksmith"
+			}],
+			rewards: [
+				{
+					id: "00000000000001E1",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "00000000000002F9",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 15.5d,
+			y: 1.0d,
+			dependencies: ["0000000000000117"],
+			id: "0000000000000119",
+			tasks: [{
+				id: "000000000000011A",
+				type: "item",
+				item: "minecolonies:blockhutstonemason"
+			}],
+			rewards: [
+				{
+					id: "00000000000001E4",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "00000000000002FC",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 15.5d,
+			y: 2.5d,
+			dependencies: ["0000000000000119"],
+			id: "000000000000011B",
+			tasks: [{
+				id: "000000000000011C",
+				type: "item",
+				item: "minecolonies:blockhutcrusher"
+			}],
+			rewards: [
+				{
+					id: "00000000000001E5",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "00000000000002FD",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 17.0d,
+			y: 1.0d,
+			dependencies: ["0000000000000119"],
+			id: "000000000000011D",
+			tasks: [{
+				id: "000000000000011E",
+				type: "item",
+				item: "minecolonies:blockhutsmeltery"
+			}],
+			rewards: [
+				{
+					id: "00000000000001E3",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "00000000000002FB",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "For More Info.....",
+			x: -1.5d,
+			y: 1.5d,
+			description: [
+				"Visit MineColonies wiki for more info:",
+				"https://wiki.minecolonies.ldtteam.com"
+			],
+			dependencies: ["00000000000000F0"],
+			id: "0000000000000374",
+			tasks: [{
+				id: "0000000000000375",
+				type: "checkmark",
+				title: "Visit wiki for more info:",
+				icon: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1,
+							id: "charm:magnetic"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000376",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.5d,
+			id: "00000000000004B4",
+			tasks: [{
+				id: "00000000000004B5",
+				type: "item",
+				title: "A Pile of Chests",
+				disable_toast: true,
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				},
+				count: 32L
+			}],
+			rewards: [{
+				id: "00000000000004B6",
+				type: "item",
+				item: "minecraft:chest",
+				count: 32
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 0.0d,
+			dependencies: ["0000000000000105"],
+			id: "62A9D63A27D727DD",
+			tasks: [{
+				id: "3CBE7656399FA5BC",
+				type: "item",
+				item: "minecolonies:blockhutsifter"
+			}],
+			rewards: [
+				{
+					id: "6BEE2FF6BDE52BE5",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "7BB5A978D7F4852B",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 11.0d,
+			y: 2.0d,
+			dependencies: ["0000000000000105"],
+			id: "4DDA20FE0826542C",
+			tasks: [{
+				id: "06C69330AF0E4DBA",
+				type: "item",
+				item: "minecolonies:blockhutflorist"
+			}],
+			rewards: [
+				{
+					id: "6BC0DC0C1AB0D399",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "71736AC44145B84B",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 10.0d,
+			y: -1.5d,
+			dependencies: ["0000000000000105"],
+			id: "013B3247EA230BF7",
+			tasks: [{
+				id: "5C905C3C08B28AF9",
+				type: "item",
+				item: "minecolonies:blockhutenchanter"
+			}],
+			rewards: [
+				{
+					id: "3CA1B1700678B3D2",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "362B005716D19773",
+					type: "item",
+					item: "minecraft:book",
+					count: 6
+				}
+			]
+		},
+		{
+			x: 18.5d,
+			y: 1.0d,
+			dependencies: ["000000000000011D"],
+			id: "33D4E31A895D1B1C",
+			tasks: [{
+				id: "63FB446754882BD0",
+				type: "item",
+				item: "minecolonies:blockhutglassblower"
+			}],
+			rewards: [
+				{
+					id: "474B40FC6EF69CA8",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "32CB8574C8DAE58F",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 11.0d,
+			y: 3.5d,
+			dependencies: ["4DDA20FE0826542C"],
+			id: "56156B2771545E54",
+			tasks: [{
+				id: "141C1C26BFF2F943",
+				type: "item",
+				item: "minecolonies:blockhutdyer"
+			}],
+			rewards: [
+				{
+					id: "24482693AEC4AEA1",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "10B63EE421C4E9F0",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 12.0d,
+			y: 3.5d,
+			dependencies: ["0000000000000107"],
+			id: "3CB43749C678B163",
+			tasks: [{
+				id: "792AFF5A2F474FC6",
+				type: "item",
+				item: "minecolonies:blockhutfletcher"
+			}],
+			rewards: [
+				{
+					id: "414D704BBC187708",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "3DF543AF58D2B0E6",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 15.5d,
+			y: 4.0d,
+			dependencies: ["000000000000011B"],
+			id: "1DF2DBA84A81F375",
+			tasks: [{
+				id: "409E9960D6DA64EC",
+				type: "item",
+				item: "minecolonies:blockhutconcretemixer"
+			}],
+			rewards: [
+				{
+					id: "62AFD4F5ADC98BD0",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 2
+				},
+				{
+					id: "115A68BAEB91122E",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 4.0d,
+			dependencies: ["00000000000000E0"],
+			id: "4DAE221F0AD08541",
+			tasks: [{
+				id: "426DEC7C8D86CEF6",
+				type: "item",
+				item: "minecolonies:blockhutbeekeeper"
+			}]
+		}
+	]
+}
