@@ -1,0 +1,73 @@
+{
+	id: "0242E24DC202746F",
+	order_index: 0,
+	title: "Random Materials",
+	loot_size: 1,
+	use_title: true,
+	rewards: [
+		{
+			item: "pickletweaks:charcoal_piece"
+		},
+		{
+			item: "pickletweaks:coal_piece"
+		},
+		{
+			item: "minecraft:iron_nugget"
+		},
+		{
+			item: "minecraft:gold_nugget"
+		},
+		{
+			item: "minecraft:brick"
+		},
+		{
+			item: "minecraft:iron_ingot"
+		},
+		{
+			item: "minecraft:diamond"
+		},
+		{
+			item: "minecraft:gold_ingot"
+		},
+		{
+			item: "minecraft:coal"
+		},
+		{
+			item: "minecraft:charcoal"
+		},
+		{
+			item: "minecraft:flint"
+		},
+		{
+			item: "minecraft:stick"
+		},
+		{
+			item: "minecraft:clay_ball"
+		},
+		{
+			item: "minecraft:emerald"
+		},
+		{
+			item: "gemsnjewels:sapphire"
+		},
+		{
+			item: "gemsnjewels:spinel"
+		},
+		{
+			item: "gemsnjewels:peridot"
+		},
+		{
+			item: "gemsnjewels:iolite"
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		},
+		color: 16777215,
+		glow: 1b,
+		string_id: "random_materials"
+	}
+}

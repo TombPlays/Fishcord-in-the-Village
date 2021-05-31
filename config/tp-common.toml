@@ -1,0 +1,504 @@
+
+[Main]
+
+	[Main."Growth Crystal"]
+		#Enable Growth Crystal Particles?
+		"Growth Crystal Particles" = false
+
+		#These like to grow things!
+		[Main."Growth Crystal"."Tier 1"]
+			#Number of Ticks between Growth Ticks.
+			#[1 = 40 Ticks or 2 Seconds]
+			#[Default*40=1200 Ticks]
+			#Range: 1 ~ 100
+			"Growth Crystal Tier 1 Speed" = 60
+			#Lower Number gives more Particles
+			#Range: 50 ~ 1000
+			"Growth Crystal Tier 1 Particles" = 1000
+
+		[Main."Growth Crystal"."Tier 2"]
+			#Number of Ticks between Growth Ticks.
+			#[1 = 20 Ticks or 1 Second]
+			#[Default*20=800 Ticks]
+			#Range: 1 ~ 100
+			"Growth Crystal Tier 2 Speed" = 30
+			#Lower Number gives more Particles
+			#Range: 50 ~ 1000
+			"Growth Crystal Tier 2 Particles" = 1000
+
+		[Main."Growth Crystal"."Tier 3"]
+			#Number of Ticks between Growth Ticks.
+			#[1 = 10 Ticks or 1/2 a Second]
+			#[Default*10=400 Ticks]
+			#Range: 1 ~ 100
+			"Growth Crystal Tier 3 Speed" = 30
+			#Lower Number gives more Particles
+			#Range: 50 ~ 1000
+			"Growth Crystal Tier 3 Particles" = 1000
+
+	#Remember to water those plants!
+	[Main."Watering Cans"]
+		#Chance out of 50 that the Watering Can will tick the plant!
+		#Range: 1 ~ 50
+		"Watering Can Chance" = 50
+		#Chance out of 100 that the Watering Can will tick the plant!
+		#Range: 50 ~ 100
+		"Watering Can Reinforced Chance" = 100
+
+	#It's the little things that count right?
+	[Main.Charcoal]
+		#Sets the burn time for the Charcoal Block.
+		#Range: > 0
+		"Charcoal Block Burn Time" = 16000
+
+[Supporters]
+
+	[Supporters."Custom Packs"]
+		#Sets the amount of Durability.
+		#Range: > 0
+		"Flint Knife Durability" = 100
+		#Sets the amount of Durability.
+		#Range: > 0
+		"Quartz Knife Durability" = 128
+
+	#WUB WUB WUB!
+	[Supporters."WUB Juice"]
+		#Sets the amount of heal Wub Juice does per tick.
+		#Range: 0.0 ~ 1.0
+		"WUB Juice Heal Amount" = 0.25
+		#Enable mobs getting hurt?
+		"WUB Juice Hurts Mobs" = true
+		#Sets the amount mobs get hurt.
+		#Range: 0.0 ~ 1.0
+		"WUB Juice Hurts Mobs Amount" = 0.01
+		#Enable mobs getting healed?
+		"WUB Juice Heals Mobs" = false
+		#Sets the amount mobs get healed.
+		#Range: 0.0 ~ 1.0
+		"WUB Juice Heals Mobs Amount" = 0.01
+		#Enable Weakness while being healed?
+		"WUB Juice Side Effect Weakness" = true
+		#Enable Blindness while being healed?
+		"WUB Juice Side Effect Blindness" = true
+		#Enable Mining Fatigue while being healed?
+		"WUB Juice Side Effect Mining Fatigue" = true
+
+	#Need a little healing?
+	#[Each teir requires the lower teir for crafting!]
+	#[Medical Items can now only be used if player is hurt!]
+	[Supporters."Medical Items"]
+		#Sets the Stacksize of the Small Medical Bandage!
+		#Range: 1 ~ 64
+		"Teir 1 Meical Item Stacksize" = 8
+		#Sets the length of regen of the Small Medical Bandage!
+		#[Does not stack]
+		#Range: 1 ~ 30
+		"Teir 1 Meical Item Regen Time" = 5
+		#Sets the Stacksize of the Large Medical Bandage!
+		#Range: 1 ~ 64
+		"Teir 2 Meical Item Stacksize" = 16
+		#Sets how long it takes the player to apply the Large Medical Bandage!
+		#Range: 1 ~ 64
+		"Teir 2 Meical Item Use Duration" = 4
+		#Sets how long the player has 2 extra hearts on the Large Medical Bandage!
+		#[Does not stack]
+		#Range: 0 ~ 120
+		"Teir 2 Meical Item Boost Time" = 15
+		#Sets the Stacksize of the Small Medical Kit!
+		#Range: 1 ~ 64
+		"Teir 3 Meical Item Stacksize" = 16
+		#Sets how long it takes the player to apply the Small Medical Kit!
+		#Range: 1 ~ 64
+		"Teir 3 Meical Item Use Duration" = 8
+		#Sets how long the player has 4 extra hearts on the Small Medical Kit!
+		#[Does not stack]
+		#Range: 0 ~ 240
+		"Teir 3 Meical Item Boost Time" = 30
+		#Sets the Stacksize of the Large Medical Kit!
+		#Range: 1 ~ 64
+		"Teir 4 Meical Item Stacksize" = 16
+		#Sets how long it takes the player to apply the Large Medical Kit!
+		#Range: 1 ~ 64
+		"Teir 4 Meical Item Use Duration" = 16
+		#Sets how long the player has 6 extra hearts on the Large Medical Kit!
+		#[Does not stack]
+		#Range: 0 ~ 300
+		"Teir 4 Meical Item Boost Time" = 60
+
+	#Because Pineapple goes on Pizza! Kappa
+	[Supporters.Pizza]
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Bams Pizza Heal Amount" = 10
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Bams Pizza Saturation Amount" = 1.0
+
+	#A Funny Thing
+	[Supporters."Sea Axe"]
+		#Enable Sea Axe as a Axe?
+		#[Axe has 11 attack damage!]
+		#[Only ENABLE if Sea Axe - Pickaxe is DISABLED!]
+		#[Sea Axe must be ENABLED for this config to work!]
+		"Sea Axe - Axe" = true
+		#Enable Sea Axe as a Pickaxe?
+		#[Pickaxe has 10 attack damage!]
+		#[Only ENABLE if Sea Axe - Axe is DISABLED!]
+		#[Sea Axe must be ENABLED for this config to work!]
+		"Sea Axe - Pickaxe" = false
+
+[Ores]
+
+	#Lavastone!
+	[Ores."Lava Source Block Stones"]
+		#Sets the Chance of Lavastone generating.
+		#Range: 1 ~ 100
+		"Lavastone Gen Frequency" = 5
+		#Sets the min Y level.
+		#Range: 1 ~ 255
+		"Lavastone Gen Min" = 12
+		#Sets the max Y level.
+		#Range: 1 ~ 255
+		"Lavastone Gen Max" = 32
+		#Sets the Lavastone Vein Size.
+		#Range: 1 ~ 100
+		"Lavastone Gen Size" = 4
+
+	#Nether Lavastone!
+	[Ores."Nether Lava Source Block Stones"]
+		#Sets the Chance of Nether Lavastone generating.
+		#Range: 1 ~ 100
+		"Nether Lavastone Gen Frequency" = 5
+		#Sets the min Y level.
+		#Range: 1 ~ 255
+		"Nether Lavastone Gen Min" = 12
+		#Sets the max Y level.
+		#Range: 1 ~ 255
+		"Nether Lavastone Gen Max" = 32
+		#Sets the Nether Lavastone Vein Size.
+		#Range: 1 ~ 100
+		"Nether Lavastone Gen Size" = 4
+
+	#Waterstone!
+	[Ores."Water Source Block Stones"]
+		#Sets the Chance of Waterstone generating.
+		#Range: 1 ~ 100
+		"Waterstone Gen Frequency" = 5
+		#Sets the min Y level.
+		#Range: 1 ~ 255
+		"Waterstone Gen Min" = 32
+		#Sets the max Y level.
+		#Range: 1 ~ 255
+		"Waterstone Gen Max" = 48
+		#Sets the Waterstone Vein Size.
+		#Range: 1 ~ 100
+		"Waterstone Gen Size" = 4
+
+	#Might as well add this!
+	[Ores."Ender Ore"]
+		#World Generate Ender Ore?
+		"Ender Ore" = true
+		#Enable Endermite spawn?
+		Endermite = true
+		#Sets the Chance of Endermites to spawn when Ore is mined.
+		#Range: 0 ~ 100
+		"Endermite Spawn" = 25
+		#Sets the Chance of Ender ore generating.
+		#Range: 1 ~ 100
+		"Ender Ore Frequency" = 5
+		#Sets the min Y level.
+		#Range: 1 ~ 255
+		"Ender Ore Min" = 1
+		#Sets the max Y level.
+		#Range: 1 ~ 255
+		"Ender Ore Max" = 32
+		#Sets the Ender Ore Vein Size.
+		#Range: 1 ~ 100
+		"Ender Ore Size" = 4
+
+	#It's the little things that count right?!
+	[Ores.Charcoal]
+		#Enable the Charcoal Block to spawn in the nether?
+		"Charcoal Block Nether Worldgen" = true
+		#Sets the Chance of Charcoal Block.
+		#Range: 1 ~ 100
+		"Charcoal Block Nether Worldgen Frequency" = 10
+		#Sets the min Y level.
+		#Range: 1 ~ 255
+		"Charcoal Block Nether Worldgen Min" = 1
+		#Sets the max Y level.
+		#Range: 1 ~ 255
+		"Charcoal Block Nether Worldgen Max" = 128
+		#Sets the Charcoal Vein Size.
+		#Range: 1 ~ 100
+		"Charcoal Block Nether Worldgen Size" = 10
+
+	[Ores."WUB Juice Overworld Ore"]
+		#Enable Overworld Wub Ore?
+		"Overworld Wub Ore" = true
+		#Sets the Overworld Wub Ore Vein Size.
+		#Range: 1 ~ 100
+		"Overworld Wub Ore Gen Size" = 5
+		#Sets the Chance of Overworld Wub Ore generating.
+		#Range: 1 ~ 100
+		"Overworld Wub Ore Gen Chance" = 50
+		#Sets the Overworld min Y level.
+		#Range: 1 ~ 255
+		"Overworld Wub Ore Gen Min" = 1
+		#Sets the Overworld max Y level.
+		#Range: 1 ~ 255
+		"Overworld Wub Ore Gen Max" = 255
+
+	[Ores."WUB Juice Nether Ore"]
+		#WorldGen Nether Wub Ore?
+		"Nether Wub Ore" = true
+		#Sets the Nether Wub Ore Vein Size.
+		#Range: 1 ~ 100
+		"Nether Wub Ore Gen Size" = 5
+		#Sets the Chance of Nether Wub Ore generating.
+		#Range: 1 ~ 100
+		"Nether Wub Ore Gen Chance" = 50
+		#Sets the Nether min Y level.
+		#Range: 1 ~ 120
+		"Nether Wub Ore Gen Min" = 1
+		#Sets the Nether max Y level.
+		#Range: 1 ~ 120
+		"Nether Wub Ore Gen Max" = 120
+
+[Extras]
+
+	[Extras."Tiny Coal & Charcoal"]
+		#Sets the burn time for Tiny Charcoal.
+		#Range: > 0
+		"Tiny Charcoal Burn Time" = 200
+		#Sets the burn time for Tiny Coal.
+		#Range: > 0
+		"Tiny Coal Burn Time" = 200
+
+	#Need some extra durability, eh?
+	#[Repairs Items in Players Inventory only.]
+	[Extras."Repair Tablet"]
+		#Cooldown (in ticks) between repair processes.
+		#Range: > 1
+		"Repair Tablet Cooldown" = 20
+
+[Armor]
+
+	#What Armor?
+	[Armor."Lava Armor"]
+		#Enable Lava Armor Resistance?
+		"Lava Armor Resistance" = true
+		#Resistance Level.
+		#Range: 0 ~ 10
+		"Lava Armor Resistance Level" = 0
+		#Enable Lava Armor Fire Resistance?
+		"Lava Armor Fire Resistance" = true
+		#Fire Resistance Level.
+		#Range: 0 ~ 10
+		"Lava Armor Fire Resistance Level" = 0
+
+	#End Game Armor
+	[Armor."Dragon Armor"]
+		#Enable Dragon Armor Flight?
+		"Dragon Armor Allow Flight" = true
+		#Enable Dragon Armor Resistance?
+		"Dragon Armor Resistance" = true
+		#Resistance Level.
+		#Range: 0 ~ 10
+		"Dragon Armor Resistance Level" = 1
+		#Enable Dragon Armor Fire Resistance?
+		"Dragon Armor Fire Resistance" = true
+		#Fire Resistance Level.
+		#Range: 0 ~ 10
+		"Dragon Armor Fire Resistance Level" = 1
+		#Enable Dragon Armor Strength?
+		"Dragon Armor Strength" = true
+		#Strength Level.
+		#Range: 0 ~ 10
+		"Dragon Armor Strength Level" = 1
+
+	#Mid Game Armor
+	[Armor."Wither Armor"]
+		#Enable Wither Armor Resistance?
+		"Wither Armor Resistance" = true
+		#Resistance Level.
+		#Range: 0 ~ 10
+		"Wither Armor Resistance Level" = 0
+		#Enable Wither Armor Fire Resistance?
+		"Wither Armor Fire Resistance" = true
+		#Fire Resistance Level.
+		#Range: 0 ~ 10
+		"Wither Armor Fire Resistance Level" = 0
+		#Enable Wither Armor Strength?
+		"Wither Armor Strength" = true
+		#Strength Level.
+		#Range: 0 ~ 10
+		"Wither Armor Strength Level" = 0
+
+	#Lets go under the water
+	[Armor."Lapis Armor"]
+		#Enable Lapis Water Breathing?
+		"Lapis Armor Water Breathing" = true
+		#Water Breathing Level.
+		#Range: 0 ~ 10
+		"Lapis Armor Water Breathing Level" = 0
+
+	#What?
+	[Armor."Obsidian Armor"]
+		#Enable Obsidian Resistance?
+		"Obsidian Armor Resistance" = true
+		#Resistance Level.
+		#Range: 0 ~ 10
+		"Obsidian Armor Resistance Level" = 0
+
+	#You went where?
+	[Armor."Quartz Armor"]
+		#Enable Quartz Strength?
+		"Quartz Armor Strength" = true
+		#Strength Level.
+		#Range: 0 ~ 10
+		"Quartz Armor Strength Level" = 0
+
+	#How fast you want to go?
+	[Armor."Redstone Armor"]
+		#Enable Redstone Speed?
+		"Redstone Armor Speed" = true
+		#Speed Level.
+		#Range: 0 ~ 10
+		"Redstone Armor Speed Level" = 0
+
+["Tools & Weapons"]
+
+	["Tools & Weapons".Spears]
+		#Sets the Reach of a Spear.
+		#[Vanilla is 5 blocks!]
+		#Range: 5.0 ~ 10.0
+		"A Spears Extended Reach" = 7.0
+
+["Terrain Generation"]
+	#Spawn quick sand traps in the overworld
+	"Quick Sand Gen" = true
+	#Spawn berry bushes in the overworld
+	"Berry Bush Gen" = true
+
+["Ore Generation"]
+	#Add Wub Ore to World Generation
+	"Wub Ore Gen" = true
+	#Add Charcoal Ore to World Generation
+	"Charcoal Ore Gen" = true
+	#Add Ender Ore to World Generation
+	"Ender Ore Gen" = true
+	#Add Lava Block to World Generation
+	"Lava Block Gen" = true
+	#Add Water Block to World Generation
+	"Water Block Gen" = true
+
+["Food & Drinks"]
+
+	#Everyone loves juice Stats!
+	["Food & Drinks"."Juice Stats"]
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Apple Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Apple Juice Saturation Amount" = 0.30000001192092896
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Carrot Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Carrot Juice Saturation Amount" = 0.30000001192092896
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Potato Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Potato Juice Saturation Amount" = 0.30000001192092896
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Beet Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Beet Juice Saturation Amount" = 0.30000001192092896
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Cactus Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Cactus Juice Saturation Amount" = 0.30000001192092896
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Slime Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Slime Juice Saturation Amount" = 0.30000001192092896
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Wheat Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Wheat Juice Saturation Amount" = 0.30000001192092896
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Melon Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Melon Juice Saturation Amount" = 0.30000001192092896
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Pumpkin Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Pumpkin Juice Saturation Amount" = 0.30000001192092896
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Blueberry Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Blueberry Juice Saturation Amount" = 0.30000001192092896
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Blackberry Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Blackberry Juice Saturation Amount" = 0.30000001192092896
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Maloberry Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Maloberry Juice Saturation Amount" = 0.30000001192092896
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Raspberry Juice Heal Amount" = 4
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Raspberry Juice Saturation Amount" = 0.30000001192092896
+
+	#Extra Berry Plants!
+	#[Disable Extra Plant Generation if you want to use Naturas Berries instead!]
+	#[The higher the value, the more Plants are generated.]
+	["Food & Drinks"."Modded Juice Generation"]
+		#Enable Extra Plant Generation?
+		"Extra Plant Generation" = true
+		#Sets the Rarity of Berry Plants.
+		#Range: > 1
+		"Extra Plant Generation Rarity" = 5
+
+	#Want more food Stats?
+	#[WIP Section]
+	["Food & Drinks"."Extra Food Stats"]
+		#Sets the Heal Amount.
+		#Range: 1 ~ 20
+		"Toasted Bread Heal Amount" = 6
+		#Sets the Saturation Amount.
+		#Range: 0.0 ~ 1.0
+		"Toasted Bread Saturation Amount" = 0.699999988079071
+
+	#How long it takes to eat food.
+	["Food & Drinks"."Food Eat Duration"]
+		#Sets how long it takes to eat TP food.
+		#Range: > 8
+		"Eat Duration" = 32
+

@@ -1,0 +1,1094 @@
+{
+	id: "00000000000005C5",
+	group: "",
+	order_index: 9,
+	filename: "reborn_of_the_end",
+	title: "Reborn of the End",
+	icon: "betterendforge:chorus_nylium",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -0.5d,
+			y: 1.0d,
+			dependencies: ["00000000000005D4"],
+			id: "00000000000005CB",
+			tasks: [{
+				id: "00000000000005CC",
+				type: "item",
+				item: "endergetic:puffbug_bottle"
+			}],
+			rewards: [{
+				id: "0000000000000615",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 5.5d,
+			dependencies: ["00000000000005EF"],
+			id: "00000000000005D0",
+			tasks: [{
+				id: "00000000000005D1",
+				type: "item",
+				item: "endergetic:acidian_lantern"
+			}],
+			rewards: [{
+				id: "0000000000000616",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 3.0d,
+			dependencies: ["00000000000005E9"],
+			id: "00000000000005D2",
+			tasks: [{
+				id: "00000000000005D3",
+				type: "item",
+				item: "endergetic:poise_boat"
+			}],
+			rewards: [{
+				id: "000000000000061D",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 2.5d,
+			dependencies: ["00000000000005EF"],
+			id: "00000000000005D4",
+			tasks: [{
+				id: "00000000000005D5",
+				type: "item",
+				item: "endergetic:bolloom_bud"
+			}],
+			rewards: [
+				{
+					id: "0000000000000622",
+					type: "item",
+					item: "aquaculture:lockbox"
+				},
+				{
+					id: "000000000000062A",
+					type: "item",
+					item: "randomite:randomite_ore"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: 3.0d,
+			dependencies: ["00000000000005E9"],
+			id: "00000000000005D6",
+			tasks: [{
+				id: "00000000000005D7",
+				type: "item",
+				item: "endergetic:poise_ladder"
+			}],
+			rewards: [{
+				id: "000000000000061A",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 5.5d,
+			dependencies: ["00000000000005E9"],
+			id: "00000000000005D8",
+			tasks: [{
+				id: "00000000000005D9",
+				type: "item",
+				item: "endergetic:eumus_brick"
+			}],
+			rewards: [{
+				id: "000000000000061B",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.5d,
+			dependencies: ["00000000000005E9"],
+			id: "00000000000005E7",
+			tasks: [{
+				id: "00000000000005E8",
+				type: "item",
+				item: "endergetic:poise_bookshelf"
+			}],
+			rewards: [{
+				id: "000000000000061C",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 4.0d,
+			dependencies: ["00000000000005EF"],
+			id: "00000000000005E9",
+			tasks: [{
+				id: "00000000000005EA",
+				type: "item",
+				item: "endergetic:poise_planks"
+			}],
+			rewards: [{
+				id: "0000000000000628",
+				type: "item",
+				item: "randomite:randomite_ore"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 4.0d,
+			size: 1.5d,
+			id: "00000000000005EF",
+			tasks: [{
+				id: "00000000000005F0",
+				type: "item",
+				item: "minecraft:end_stone"
+			}],
+			rewards: [{
+				id: "0000000000000627",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.0d,
+			dependencies: ["00000000000005D4"],
+			id: "5E58C743EB40697D",
+			tasks: [{
+				id: "4DA467D02330A18D",
+				type: "item",
+				item: "endergetic:bolloom_balloon"
+			}],
+			rewards: [{
+				id: "7236CBEA3BD81F3F",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			dependencies: ["00000000000005E9"],
+			id: "4417B225D5CD5381",
+			tasks: [{
+				id: "68CFF21289B30F3E",
+				type: "item",
+				item: "endergetic:poise_chest"
+			}],
+			rewards: [{
+				id: "0CD57CE6D2BB0216",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 5.0d,
+			dependencies: ["00000000000005E9"],
+			id: "2E786F1B59BC1560",
+			tasks: [{
+				id: "6B2A602D98802BB6",
+				type: "item",
+				item: "endergetic:ender_lantern"
+			}],
+			rewards: [{
+				id: "1D5C905E1B83A5AA",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 5.0d,
+			dependencies: ["00000000000005E9"],
+			id: "61B63B9A90DC9A41",
+			tasks: [{
+				id: "6596A5A4EDE55B69",
+				type: "item",
+				item: "endergetic:ender_campfire"
+			}],
+			rewards: [{
+				id: "4293EF83D8A7B5C6",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:elytra",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 5.5d,
+			y: 4.0d,
+			dependencies: ["00000000000005EF"],
+			id: "3697C11949A0A907",
+			tasks: [{
+				id: "0CE7A1C2DE63B1EB",
+				type: "checkmark",
+				title: "Ender Explorer"
+			}]
+		},
+		{
+			icon: "betterendforge:end_lily_leaf",
+			x: 3.0d,
+			y: 3.0d,
+			description: ["Deep lakes in the nether filled with End Lotus flowers."],
+			dependencies: ["3697C11949A0A907"],
+			id: "783082B8C8FB9061",
+			tasks: [{
+				id: "28BD9EBD8925D2CE",
+				type: "biome",
+				title: "Megalake",
+				icon: "betterendforge:end_lily_leaf",
+				biome: "betterendforge:megalake"
+			}],
+			rewards: [{
+				id: "3848D941F1F185B3",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			description: ["Megalakes but with Lacugrove trees and various flowers. May seem to be a more like a grassland than a lake."],
+			dependencies: ["3697C11949A0A907"],
+			id: "1ECA6B89B6D233FE",
+			tasks: [{
+				id: "419C5234C87CB873",
+				type: "biome",
+				title: "Megalake Grove",
+				icon: "betterendforge:umbrella_moss_tall",
+				biome: "betterendforge:megalake_grove"
+			}],
+			rewards: [{
+				id: "1688F47A89BE7CBB",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 1.5d,
+			description: ["Flower-filled land covered with giant bioluminescent glowshroom trees."],
+			dependencies: ["3697C11949A0A907"],
+			id: "72621E64C7433420",
+			tasks: [{
+				id: "568F3788FDCDA03E",
+				type: "biome",
+				title: "Foggy Mushroomland",
+				icon: "betterendforge:mossy_glowshroom_fur",
+				biome: "betterendforge:foggy_mushroomland"
+			}],
+			rewards: [{
+				id: "07EB06FCD7525A53",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.5d,
+			description: ["Thick forest of hanging vines, Umbrella trees, and jellyshrooms."],
+			dependencies: ["3697C11949A0A907"],
+			id: "3F33F2304E5E7667",
+			tasks: [{
+				id: "7F1464E45E6DD2CF",
+				type: "biome",
+				title: "Umbrella Jungle",
+				icon: "betterendforge:twisted_umbrella_moss_tall",
+				biome: "betterendforge:umbrella_jungle"
+			}],
+			rewards: [{
+				id: "2249F925E1F64EAB",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 2.0d,
+			description: ["Large stars of ice and snow that exist between ender islands."],
+			dependencies: ["3697C11949A0A907"],
+			id: "5D80B3968D2593F6",
+			tasks: [{
+				id: "7BCB30C57D340AE2",
+				type: "biome",
+				title: "Ice Starfield",
+				icon: "betterendforge:ancient_emerald_ice",
+				biome: "betterendforge:ice_starfield"
+			}],
+			rewards: [{
+				id: "1B5698A10F4224F5",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.5d,
+			description: ["End stone spires covered in pink Tenanea trees and vines."],
+			dependencies: ["3697C11949A0A907"],
+			id: "6BE71A977A31E41B",
+			tasks: [{
+				id: "059A1A00A55A3E1C",
+				type: "biome",
+				title: "Blossoming Spires",
+				icon: "betterendforge:tenanea_sapling",
+				biome: "betterendforge:blossoming_spires"
+			}],
+			rewards: [{
+				id: "23AEE4C33054D0CD",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 4.5d,
+			description: ["A flat grassland that is extremely grassy and has lumecorn sprouts."],
+			dependencies: ["3697C11949A0A907"],
+			id: "13EAD10EE57FCCBC",
+			tasks: [{
+				id: "63BFFF5B0CA5798D",
+				type: "biome",
+				title: "Glowing Grasslands",
+				icon: "betterendforge:blooming_cooksonia",
+				biome: "betterendforge:glowing_grasslands"
+			}],
+			rewards: [{
+				id: "1B0B718256E72F83",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 5.5d,
+			description: ["A vibrant orange land with thick ground cover and large Helix trees."],
+			dependencies: ["3697C11949A0A907"],
+			id: "60862E8751A2AB9D",
+			tasks: [{
+				id: "37BD9C1B9C1A2962",
+				type: "biome",
+				title: "Amber Land",
+				icon: "betterendforge:amber_grass",
+				biome: "betterendforge:amber_land"
+			}],
+			rewards: [{
+				id: "4773E7E67A488A1A",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 6.0d,
+			description: ["A land filled with various stacks of sulfur vents that contain their own water based ecosystems. Are worth a dive into."],
+			dependencies: ["3697C11949A0A907"],
+			id: "0D771167B0378700",
+			tasks: [{
+				id: "26155791932AF541",
+				type: "biome",
+				title: "Sulphur Springs",
+				icon: "betterendforge:hydrothermal_vent",
+				biome: "betterendforge:sulphur_springs"
+			}],
+			rewards: [{
+				id: "11AB34BBB07E1A28",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 6.5d,
+			description: ["A forest of Chorus plants and Pythadendron trees."],
+			dependencies: ["3697C11949A0A907"],
+			id: "580BDDDD0ED68F5A",
+			tasks: [{
+				id: "1E1E2436F090A050",
+				type: "biome",
+				title: "Chorus Forest",
+				icon: "betterendforge:chorus_nylium",
+				biome: "betterendforge:chorus_forest"
+			}],
+			rewards: [{
+				id: "35244BE0FF0AD73F",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 6.5d,
+			description: ["A desolate, dusty region with not much significance beyond a large Enderman population."],
+			dependencies: ["3697C11949A0A907"],
+			id: "5660A78B0AE862C7",
+			tasks: [{
+				id: "6C9A3C8AFE33C2A9",
+				type: "biome",
+				title: "Dust Wasteland",
+				icon: "minecraft:end_stone",
+				biome: "betterendforge:dust_wasteland"
+			}],
+			rewards: [{
+				id: "72ADE9DD2F4F7DE3",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 6.0d,
+			description: ["A layered mountainous land of various ender rocks."],
+			dependencies: ["3697C11949A0A907"],
+			id: "4FD8DB6A4B137B73",
+			tasks: [{
+				id: "509D3A508AD6D23E",
+				type: "biome",
+				title: "Painted Mountains",
+				icon: "betterendforge:violecite",
+				biome: "betterendforge:painted_mountains"
+			}],
+			rewards: [{
+				id: "1738CD56C3839E5A",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 5.0d,
+			description: ["Dark forest of Dragon trees and shadow plants."],
+			dependencies: ["3697C11949A0A907"],
+			id: "6D798E6430C4C1C5",
+			tasks: [{
+				id: "2BF57FC30148AB9E",
+				type: "biome",
+				title: "Shadow Forest",
+				icon: "betterendforge:shadow_grass",
+				biome: "betterendforge:shadow_forest"
+			}],
+			rewards: [{
+				id: "4C2746B2026D1581",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 3.5d,
+			description: ["Mountainous islands that have large rainbow Aurora Crystal formations."],
+			dependencies: ["3697C11949A0A907"],
+			id: "742FA17F32B5562D",
+			tasks: [{
+				id: "371FA0013EB104B6",
+				type: "biome",
+				title: "Crystal Mountains",
+				icon: "betterendforge:aurora_crystal",
+				biome: "betterendforge:crystal_mountains"
+			}],
+			rewards: [{
+				id: "111CD125140326BD",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 2.5d,
+			description: ["Mining Aurora Crystal will give you shards that are infused with a mythical energy that pulses through the End."],
+			dependencies: ["742FA17F32B5562D"],
+			id: "5E2DFA9A653F3619",
+			tasks: [{
+				id: "00E94F69B9B1075B",
+				type: "item",
+				item: "betterendforge:crystal_shards"
+			}],
+			rewards: [{
+				id: "5C9A6B7A8FE5BDD1",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 1.5d,
+			description: ["The End for Dummies explains portal restart rituals and infusions."],
+			dependencies: [
+				"5E2DFA9A653F3619",
+				"0B56F802933E9AB7"
+			],
+			id: "5FE08145513FF66D",
+			tasks: [{
+				id: "0FFDEDBC35546A6A",
+				type: "item",
+				item: "betterendforge:guidebook"
+			}],
+			rewards: [{
+				id: "142B05B29006B955",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 0.5d,
+			description: ["Infusion rituals and pedestal setup are described in The End for Dummies."],
+			dependencies: ["5FE08145513FF66D"],
+			id: "55DCE2FA47D4C837",
+			tasks: [{
+				id: "33057BB7CEA11A6D",
+				type: "item",
+				item: "betterendforge:infusion_pedestal"
+			}],
+			rewards: [{
+				id: "20C878DBB071EF96",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			title: "Amber",
+			x: 9.0d,
+			y: 0.5d,
+			description: ["Comes from Amber ore. Gives raw amber, placing 2x2 in a crafting table to make a gem."],
+			dependencies: ["55DCE2FA47D4C837"],
+			id: "5E4164741B56B1BC",
+			tasks: [
+				{
+					id: "54F96D53C523B048",
+					type: "item",
+					item: "betterendforge:amber_gem"
+				},
+				{
+					id: "7B3FCC92FBC455BB",
+					type: "item",
+					item: "betterendforge:raw_amber"
+				}
+			],
+			rewards: [{
+				id: "7FD22FF46BC87E81",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -0.5d,
+			description: ["Infused Terminite Armor"],
+			dependencies: ["5E4164741B56B1BC"],
+			id: "254E533B919E0141",
+			tasks: [
+				{
+					id: "666D7ABBC8030354",
+					type: "item",
+					item: {
+						id: "betterendforge:crystalite_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "60D4FDBE448CADB3",
+					type: "item",
+					item: {
+						id: "betterendforge:crystalite_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "73C1F60908B712DF",
+					type: "item",
+					item: {
+						id: "betterendforge:crystalite_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "747BBFFAC48F382E",
+					type: "item",
+					item: {
+						id: "betterendforge:crystalite_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "7F006423967074B0",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -1.0d,
+			description: ["Comes from Ender Ore, rare ore deep in ender islands."],
+			dependencies: ["55DCE2FA47D4C837"],
+			id: "6E047390333830E1",
+			tasks: [{
+				id: "35D9D17378CFBBF4",
+				type: "item",
+				item: "betterendforge:ender_shard"
+			}],
+			rewards: [{
+				id: "64509404EDF4DE86",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -2.0d,
+			description: ["Used to re-activate portals, in infusions, and to make a respawn obelisk."],
+			dependencies: ["6E047390333830E1"],
+			id: "16BC2746E4DD50B9",
+			tasks: [{
+				id: "481BAE1D47E8E4C7",
+				type: "item",
+				item: "betterendforge:eternal_crystal"
+			}],
+			rewards: [{
+				id: "2CFD32189E2D0E92",
+				type: "xp_levels",
+				xp_levels: 10
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 2.5d,
+			description: ["Can be made by a number of methods on an anvil, check JEI for specifics."],
+			id: "0B56F802933E9AB7",
+			tasks: [{
+				id: "78DBEF6A0D0A5E13",
+				type: "item",
+				item: "betterendforge:ender_dust"
+			}],
+			rewards: [{
+				id: "38B7F1FC7BAF2FD5",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: 3.5d,
+			description: ["Alloy of Iron and Ender Dust made in a End Stone Smelter."],
+			dependencies: [
+				"0B56F802933E9AB7",
+				"46966AA1DDAD75DC"
+			],
+			id: "2F65B1126A72219F",
+			tasks: [{
+				id: "655865A531EB741B",
+				type: "item",
+				item: "betterendforge:terminite_ingot"
+			}],
+			rewards: [{
+				id: "2AC8171988F9E19D",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 3.5d,
+			description: ["Alloy of Netherite and Terminite made in a End Stone Smelter."],
+			dependencies: ["2F65B1126A72219F"],
+			id: "0BD7D528F30810EC",
+			tasks: [{
+				id: "2CFDAEF3092BDF7F",
+				type: "item",
+				item: "betterendforge:aeternium_ingot"
+			}],
+			rewards: [{
+				id: "153960542EBFDD82",
+				type: "xp_levels",
+				xp_levels: 10
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 4.5d,
+			description: ["Able to create unique alloys."],
+			id: "46966AA1DDAD75DC",
+			tasks: [{
+				id: "2BD755899F8F728A",
+				type: "item",
+				item: "betterendforge:end_stone_smelter"
+			}],
+			rewards: [{
+				id: "301330DD2728CD48",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			title: "Terminite Tools",
+			x: 15.0d,
+			y: 2.0d,
+			description: ["A handy Terminite tool set."],
+			dependencies: ["2F65B1126A72219F"],
+			id: "692AFCEA58029429",
+			tasks: [
+				{
+					id: "5A1F280E8BB6ED7E",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_sword",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "6D36BB7825CBA0F0",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_shovel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5846F53B9EF57D35",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5305776B4B33FB26",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_axe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "32C67DD1419ADF87",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_hoe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "001A89DBA6A2D354",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_hammer",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "19B097A8F735738C",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			title: "Terminite Armor",
+			x: 15.0d,
+			y: 5.0d,
+			description: ["A whole set of End-alloy armor."],
+			dependencies: ["2F65B1126A72219F"],
+			id: "3A8254A2C4CDE79E",
+			tasks: [
+				{
+					id: "0EA580BEF42BD6BB",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "70DE2EB58353B950",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "17FE1BC9DB7D883E",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1AA0A97764E4B577",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "35D47D00B8308630",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			title: "Aeternium Armor",
+			x: 17.0d,
+			y: 5.0d,
+			description: [
+				"From combining Terminite Armor with Aeternium ingots in a Smithing Table.",
+				"",
+				"One of the highest tiers of armor."
+			],
+			dependencies: [
+				"0BD7D528F30810EC",
+				"3A8254A2C4CDE79E"
+			],
+			id: "28A8442346F33F41",
+			tasks: [
+				{
+					id: "71A3B0D5665D7837",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5936A8F3EAD442BB",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "36B506A540310BB5",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "358D7DDBA14EC93D",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "2BB4E47874DE014B",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			title: "Aeternium Tools",
+			x: 16.0d,
+			y: 0.5d,
+			description: ["A set of some of the most durable tools in the game."],
+			dependencies: ["6FF5FFEE7F672F05"],
+			id: "36543B4BFF59FC05",
+			tasks: [
+				{
+					id: "3D7F81B2DA447F24",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_sword",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5F92487B510CB74F",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_shovel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "76D3299533AE1109",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "46937ECFF320CE6D",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_axe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "128BD303E05F627D",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_hoe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "440B91AEB53F761A",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_hammer",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "474BAB1094D8948F",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			title: "Aeternium Tool Parts",
+			x: 17.0d,
+			y: 2.0d,
+			description: ["Smithed in an anvil with a Smith Hammer and Aeternium ingots."],
+			dependencies: ["0BD7D528F30810EC"],
+			id: "6FF5FFEE7F672F05",
+			tasks: [
+				{
+					id: "380AC66D876AE12B",
+					type: "item",
+					item: "betterendforge:leather_wrapped_stick",
+					count: 5L
+				},
+				{
+					id: "2B2FF700F1692190",
+					type: "item",
+					item: "betterendforge:aeternium_sword_handle"
+				},
+				{
+					id: "0D90C2914661B1C9",
+					type: "item",
+					item: "betterendforge:aeternium_sword_blade"
+				},
+				{
+					id: "4D50D174D65147A2",
+					type: "item",
+					item: "betterendforge:aeternium_hammer_head"
+				},
+				{
+					id: "4AF2A5F3F91B2318",
+					type: "item",
+					item: "betterendforge:aeternium_hoe_head"
+				},
+				{
+					id: "3F0106DEA4221D46",
+					type: "item",
+					item: "betterendforge:aeternium_axe_head"
+				},
+				{
+					id: "205B7A8C79AF58A9",
+					type: "item",
+					item: "betterendforge:aeternium_pickaxe_head"
+				},
+				{
+					id: "09B67B5F5B6F3802",
+					type: "item",
+					item: "betterendforge:aeternium_shovel_head"
+				}
+			],
+			rewards: [{
+				id: "3FA522192582C4D4",
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		}
+	]
+}
